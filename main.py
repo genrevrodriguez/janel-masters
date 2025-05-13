@@ -4,6 +4,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from data_utils import useLoadData
 from model_utils import useTrainAndSaveBestModel, useLoadBestModel, useClassifyStudent
+import json
+
+def useLoadQuestions():
+    with open("questions.json", "r") as f:
+        return json.load(f)
 
 # Load the cleaned dataset
 @st.cache_data
@@ -65,10 +70,14 @@ else:
 st.subheader("Classify a New Student")
 try:
     model = useLoadBestModel()
+    questions = useLoadQuestions()
     with st.form("student_form"):
         bdi_responses = {}
         for col in question_cols:
-            bdi_responses[col] = st.number_input(f"{col}", min_value=0, max_value=3, value=0)
+            options = list(questions[col].keys())
+            option_labels = [f"{val}: {questions[col][val]}" for val in options]
+            selected = st.selectbox(f"{col}", options=options, format_func=lambda x: questions[col][x])
+            bdi_responses[col] = int(selected)
         submitted = st.form_submit_button("Classify")
         if submitted:
             cluster = useClassifyStudent(bdi_responses, model, question_cols)
