@@ -35,13 +35,28 @@ st.write("This dashboard shows insights from BDI (Beck Depression Inventory) clu
 # Cluster Summary
 if "Cluster" in filtered_df.columns:
     st.subheader("BDI Cluster Distribution")
+    # Define cluster labels
+    cluster_labels = {
+        0: "Severe depression",
+        1: "Mild/Moderate depression",
+        2: "Minimal/No depression"
+    }
+
+    # Add labels to cluster counts
     cluster_counts = filtered_df["Cluster"].value_counts().sort_index()
+    cluster_counts.index = [f"{i} ({cluster_labels.get(i, 'Unknown')})" for i in cluster_counts.index]
     st.bar_chart(cluster_counts)
 
-    # Show average BDI per cluster
+    # Show average BDI per cluster with labels
     avg_bdi = filtered_df.groupby("Cluster")["bdi_results"].mean()
+    avg_bdi_labeled = avg_bdi.reset_index()
+    avg_bdi_labeled["Label"] = avg_bdi_labeled["Cluster"].map(cluster_labels)
+    avg_bdi_labeled["Cluster"] = avg_bdi_labeled.apply(
+        lambda row: f"{row['Cluster']} ({row['Label']})", axis=1
+    )
+    avg_bdi_labeled = avg_bdi_labeled.drop(columns=["Label"])
     st.write("**Average BDI per Cluster**")
-    st.dataframe(avg_bdi.reset_index().rename(columns={"bdi_results": "Average BDI Score"}))
+    st.dataframe(avg_bdi_labeled.rename(columns={"bdi_results": "Average BDI Score"}))
 
     # BDI Score Histogram
     st.subheader("BDI Score Distribution")
@@ -81,6 +96,13 @@ try:
         submitted = st.form_submit_button("Classify")
         if submitted:
             cluster = useClassifyStudent(bdi_responses, model, question_cols)
-            st.success(f"The student is classified into Cluster {cluster}")
+            # Add cluster label mapping
+            cluster_labels = {
+                0: "Severe depression",
+                1: "Mild/Moderate depression",
+                2: "Minimal/No depression"
+            }
+            label = cluster_labels.get(cluster, "Unknown")
+            st.success(f"The student is classified into Cluster {cluster} ({label})")
 except Exception as e:
     st.info("Train and save a model first to enable student classification.")
