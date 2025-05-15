@@ -8,6 +8,8 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 import warnings
+import matplotlib.pyplot as plt
+import numpy as np
 
 warnings.filterwarnings("ignore")
 
@@ -66,16 +68,80 @@ def main():
         }
 
         trained_models = {}
+        train_metrics = {}
         for name, model in models.items():
             model_phq = model
             model_bdi = model.__class__(**model.get_params())
             model_phq.fit(X_train, y_phq_train)
             model_bdi.fit(X_train, y_bdi_train)
             trained_models[name] = {"phq": model_phq, "bdi": model_bdi}
+            # Collect metrics
+            metrics = {}
+            if hasattr(model_phq, "loss_curve_"):
+                metrics["phq_loss_curve"] = getattr(model_phq, "loss_curve_", None)
+            if hasattr(model_phq, "feature_importances_"):
+                metrics["phq_feature_importances"] = getattr(model_phq, "feature_importances_", None)
+            if hasattr(model_phq, "coef_"):
+                metrics["phq_coef"] = getattr(model_phq, "coef_", None)
+            metrics["phq_train_acc"] = model_phq.score(X_train, y_phq_train)
+            # Repeat for BDI
+            if hasattr(model_bdi, "loss_curve_"):
+                metrics["bdi_loss_curve"] = getattr(model_bdi, "loss_curve_", None)
+            if hasattr(model_bdi, "feature_importances_"):
+                metrics["bdi_feature_importances"] = getattr(model_bdi, "feature_importances_", None)
+            if hasattr(model_bdi, "coef_"):
+                metrics["bdi_coef"] = getattr(model_bdi, "coef_", None)
+            metrics["bdi_train_acc"] = model_bdi.score(X_train, y_bdi_train)
+            train_metrics[name] = metrics
+        return trained_models, X_encoded.columns, train_metrics, X_train.columns
 
-        return trained_models, X_encoded.columns
+    trained_models, model_features, train_metrics, feature_names = train_models_selected(df, selected_features)
 
-    trained_models, model_features = train_models_selected(df, selected_features)
+    # Show training graphs for all models
+    st.markdown("## Training Metrics & Graphs (All Models)")
+    for name, metrics in train_metrics.items():
+        st.subheader(f"{name}")
+        cols = st.columns(2)
+        # PHQ
+        with cols[0]:
+            st.markdown("**PHQ**")
+            if "phq_loss_curve" in metrics and metrics["phq_loss_curve"] is not None:
+                st.line_chart(metrics["phq_loss_curve"])
+            if "phq_feature_importances" in metrics and metrics["phq_feature_importances"] is not None:
+                importances = metrics["phq_feature_importances"]
+                if len(importances) != len(feature_names):
+                    st.warning(f"Feature importance shape mismatch: {len(importances)} importances vs {len(feature_names)} features.")
+                    st.text(f"Importances: {importances}")
+                    st.text(f"Features: {list(feature_names)}")
+                elif np.all(importances == 0):
+                    st.warning("All feature importances are zero.")
+                else:
+                    fig, ax = plt.subplots()
+                    ax.barh(feature_names, importances)
+                    ax.set_title("Feature Importances (PHQ)")
+                    st.pyplot(fig)
+                    plt.close(fig)
+            st.write(f"Training Accuracy: {metrics['phq_train_acc']:.2f}")
+        # BDI
+        with cols[1]:
+            st.markdown("**BDI**")
+            if "bdi_loss_curve" in metrics and metrics["bdi_loss_curve"] is not None:
+                st.line_chart(metrics["bdi_loss_curve"])
+            if "bdi_feature_importances" in metrics and metrics["bdi_feature_importances"] is not None:
+                importances = metrics["bdi_feature_importances"]
+                if len(importances) != len(feature_names):
+                    st.warning(f"Feature importance shape mismatch: {len(importances)} importances vs {len(feature_names)} features.")
+                    st.text(f"Importances: {importances}")
+                    st.text(f"Features: {list(feature_names)}")
+                elif np.all(importances == 0):
+                    st.warning("All feature importances are zero.")
+                else:
+                    fig, ax = plt.subplots()
+                    ax.barh(feature_names, importances)
+                    ax.set_title("Feature Importances (BDI)")
+                    st.pyplot(fig)
+                    plt.close(fig)
+            st.write(f"Training Accuracy: {metrics['bdi_train_acc']:.2f}")
 
     algo_choice = st.selectbox("Choose Model", list(trained_models.keys()))
     st.markdown("### Input Information")
@@ -93,6 +159,9 @@ def main():
         model_set = trained_models[algo_choice]
         pred_phq = model_set["phq"].predict(full_input)[0]
         pred_bdi = model_set["bdi"].predict(full_input)[0]
+        # Probabilities
+        phq_probs = model_set["phq"].predict_proba(full_input)[0] if hasattr(model_set["phq"], "predict_proba") else None
+        bdi_probs = model_set["bdi"].predict_proba(full_input)[0] if hasattr(model_set["bdi"], "predict_proba") else None
 
         phq_map = [
             "Minimal or No Depression",
@@ -101,10 +170,27 @@ def main():
             "Moderately Severe Depression",
             "Severe Depression"
         ]
-        bdi_map = ["Minimal Depression", "Mild Depression", "Moderate Depression", "Severe Depression"]
+        bdi_map = [
+            "Minimal Depression", 
+            "Mild Depression", 
+            "Moderate Depression", 
+            "Severe Depression"
+        ]
 
         st.success(f"**PHQ Cluster**: {pred_phq} - {phq_map[pred_phq]}")
         st.success(f"**BDI Cluster**: {pred_bdi} - {bdi_map[pred_bdi]}")
+
+        # Show prediction probability bar chart
+        st.markdown("#### Prediction Probabilities")
+        cols = st.columns(2)
+        with cols[0]:
+            st.markdown("**PHQ**")
+            if phq_probs is not None:
+                st.bar_chart(pd.Series(phq_probs, index=[f"{i}: {label}" for i, label in enumerate(phq_map)]))
+        with cols[1]:
+            st.markdown("**BDI**")
+            if bdi_probs is not None:
+                st.bar_chart(pd.Series(bdi_probs, index=[f"{i}: {label}" for i, label in enumerate(bdi_map)]))
 
 if __name__ == "__main__":
     main()
