@@ -1,0 +1,1586 @@
+﻿id,sex,age,school_name,program,department,year_level,ses,family_arrangement,living_condition_level,phq_cluster,bdi_cluster,is_clinical_diagnosed
+1,male,21,mseuf,bsce,ceng,3,3,1,1,1,1,0
+2,female,18,mseuf,bsce,ceng,1,3,2,1,1,1,0
+3,male,19,mseuf,bsit,ict,1,4,1,1,1,1,0
+4,female,19,mseuf,bsit,ict,1,4,1,1,1,1,0
+5,female,18,mseuf,bstm,htm,1,2,1,1,1,1,0
+6,female,18,mseuf,bsce,ceng,1,3,1,1,1,0,0
+7,female,19,mseuf,bsce,ceng,1,2,1,1,1,2,0
+8,male,18,mseuf,bsce,ceng,1,2,1,1,0,0,0
+9,female,19,mseuf,bsce,ceng,1,2,1,1,1,1,0
+10,male,19,mseuf,bsie,ceng,1,3,1,5,2,1,0
+11,female,18,mseuf,bsie,ceng,1,3,1,1,2,3,0
+12,male,19,mseuf,bsie,ceng,1,3,1,5,2,1,0
+13,female,18,mseuf,bsie,ceng,1,3,1,1,2,0,0
+14,female,19,mseuf,bsie,ceng,1,4,1,2,2,0,0
+15,female,18,mseuf,bsie,ceng,1,2,4,5,3,2,0
+16,female,18,mseuf,bsie,ceng,1,2,4,5,3,2,0
+17,female,18,mseuf,bsie,ceng,1,2,2,4,3,1,0
+18,male,18,mseuf,bsie,ceng,1,2,1,5,3,1,0
+19,female,19,mseuf,bsie,ceng,1,4,2,1,3,1,0
+20,male,20,mseuf,bsie,ceng,1,4,1,1,4,1,0
+21,male,19,mseuf,bsie,ceng,1,2,1,1,4,1,0
+22,male,19,mseuf,bsie,ceng,1,2,1,1,4,1,0
+23,male,19,mseuf,bsie,ceng,1,2,1,2,4,2,1
+24,female,19,mseuf,bsie,ceng,1,2,1,5,4,2,0
+25,male,18,mseuf,bsce,ceng,1,3,1,4,4,1,0
+26,female,19,mseuf,bsie,ceng,1,2,4,4,4,2,0
+27,female,18,mseuf,bsie,ceng,1,4,1,1,4,2,0
+28,male,19,mseuf,bsie,ceng,1,1,3,2,4,2,0
+29,female,19,mseuf,bsie,ceng,1,4,1,1,4,1,0
+30,female,18,mseuf,bsie,ceng,1,3,2,1,4,2,0
+31,male,18,mseuf,bsie,ceng,1,4,1,5,4,3,0
+32,female,19,mseuf,bsce,ceng,1,4,1,4,4,2,0
+33,female,18,mseuf,bsce,ceng,1,3,1,1,4,3,0
+34,male,19,mseuf,bsce,ceng,1,2,1,1,4,1,0
+35,female,18,mseuf,bsce,ceng,1,3,1,1,4,2,0
+36,female,19,mseuf,bsce,ceng,1,7,4,2,4,1,0
+37,male,18,mseuf,bsce,ceng,1,3,2,5,4,2,0
+38,male,18,mseuf,bsce,ceng,1,1,1,1,4,1,0
+39,male,19,mseuf,bsce,ceng,1,2,1,2,4,3,0
+40,male,18,mseuf,bsce,ceng,1,4,1,1,4,2,0
+41,female,18,mseuf,bsce,ceng,1,2,1,1,4,2,0
+42,male,18,mseuf,bsce,ceng,1,4,1,5,4,2,0
+43,female,18,mseuf,bsce,ceng,1,4,1,2,4,2,0
+44,male,18,mseuf,bsce,ceng,1,1,2,3,4,1,0
+45,male,19,mseuf,bsce,ceng,1,4,2,5,4,0,0
+46,male,18,mseuf,bsce,ceng,1,3,3,2,4,2,0
+47,male,21,mseuf,bsce,ceng,1,2,4,2,4,3,0
+48,female,18,mseuf,bsce,ceng,1,2,1,1,4,2,0
+49,male,19,mseuf,bsce,ceng,1,1,2,5,4,0,0
+50,female,19,mseuf,bsce,ceng,1,2,1,5,4,1,0
+51,female,18,mseuf,bsce,ceng,1,3,1,1,4,0,0
+52,female,19,mseuf,bsce,ceng,1,1,1,1,4,2,0
+53,male,22,mseuf,bspsy,cas,4,4,1,3,4,2,0
+54,male,18,mseuf,bscs,ict,1,1,4,2,4,2,0
+55,female,22,mseuf,bfa,cafa,4,3,1,5,4,1,0
+56,female,21,mseuf,bscrim,crim,4,1,1,3,4,3,0
+57,male,23,mseuf,bsee,ceng,4,2,2,3,4,1,0
+58,female,22,mseuf,bfa,cafa,4,4,1,1,4,2,0
+59,male,22,mseuf,bscrim,crim,4,4,2,5,4,1,0
+60,male,20,mseuf,bsmet,ahs,3,3,3,2,4,1,0
+61,male,18,mseuf,bfa,cafa,1,3,1,2,4,2,0
+62,female,21,mseuf,bspsy,cas,3,4,3,5,4,2,0
+63,male,22,mseuf,bsit,ict,3,2,3,2,4,1,0
+64,male,21,mseuf,bsmet,ahs,4,5,4,2,4,2,0
+65,male,23,mseuf,bsit,ict,3,2,1,5,4,1,0
+66,male,21,mseuf,bsit,ict,3,2,4,4,4,0,0
+67,female,21,mseuf,bsit,ict,3,3,3,2,4,2,0
+68,female,22,mseuf,bscs,ict,3,6,3,5,4,2,1
+69,male,22,mseuf,bsit,ict,3,6,1,1,4,1,1
+70,male,21,mseuf,bsit,ict,3,4,1,4,4,2,0
+71,female,20,mseuf,bsit,ict,3,1,1,3,4,2,0
+72,male,21,mseuf,bscs,ict,3,3,1,5,4,1,0
+73,male,21,mseuf,bscrim,crim,3,3,4,2,4,0,0
+74,male,20,mseuf,bsit,ict,3,2,1,1,4,1,0
+75,male,21,mseuf,bsit,ict,3,2,2,1,4,2,0
+76,male,20,mseuf,bsit,ict,2,3,1,1,4,2,0
+77,female,21,mseuf,bsit,ict,3,6,1,1,4,0,0
+78,male,23,mseuf,bsit,ict,3,2,1,5,0,0,0
+79,female,21,mseuf,bsit,ict,3,2,1,1,4,3,0
+80,female,20,mseuf,bsit,ict,2,3,1,5,4,0,0
+81,female,21,mseuf,bsit,ict,1,4,1,3,4,2,1
+82,female,22,mseuf,aben,cas,4,3,1,5,4,1,0
+83,male,20,mseuf,bsit,ict,3,4,3,3,4,1,0
+84,male,21,mseuf,bsit,ict,3,5,1,1,4,1,1
+85,male,18,mseuf,bsce,ceng,1,2,2,5,4,0,0
+86,female,22,mseuf,bsit,ict,3,3,1,1,4,0,0
+87,female,21,mseuf,bscs,ict,3,2,1,1,4,2,0
+88,male,21,mseuf,bsit,ict,3,3,2,1,4,1,0
+89,male,20,mseuf,bscs,ict,3,5,2,1,4,0,0
+90,male,19,mseuf,bsce,ceng,1,2,1,1,4,1,0
+91,male,21,mseuf,bscs,ict,3,4,1,1,0,0,0
+92,male,20,mseuf,abpolsci,cas,2,4,1,1,4,0,0
+93,female,20,mseuf,bscs,ict,3,2,3,2,4,0,0
+94,male,21,mseuf,bscs,ict,3,3,1,5,4,1,0
+95,male,21,mseuf,bsit,ict,3,2,2,4,4,1,0
+96,male,22,mseuf,bsit,ict,3,4,1,5,0,0,0
+97,female,18,mseuf,bsce,ceng,1,3,1,1,4,3,0
+98,female,18,mseuf,bsce,ceng,1,1,1,1,4,2,0
+99,female,18,mseuf,bsce,ceng,1,3,1,1,4,1,0
+100,male,21,mseuf,bsce,ceng,3,3,2,4,4,1,0
+101,female,20,mseuf,bsemc,ict,2,3,1,1,4,1,0
+102,female,18,mseuf,bsie,ceng,1,2,2,4,4,3,0
+103,female,20,mseuf,bsemc,ict,2,4,1,1,4,2,0
+104,male,21,mseuf,bscs,ict,3,3,2,5,4,1,0
+105,female,20,mseuf,bscs,ict,3,4,1,1,4,0,0
+106,male,19,mseuf,bsce,ceng,1,2,1,1,4,3,0
+107,male,22,mseuf,bscs,ict,3,3,1,1,4,2,0
+108,male,21,mseuf,bsit,ict,3,3,3,3,4,0,0
+109,male,21,mseuf,bsit,ict,3,3,1,5,4,1,0
+110,female,21,mseuf,bscs,ict,2,3,1,1,4,1,0
+111,male,19,mseuf,bsce,ceng,1,3,1,1,4,0,0
+112,male,19,mseuf,bsme,ceng,1,3,1,1,4,2,0
+113,male,21,mseuf,bscrim,crim,4,1,1,1,4,3,0
+114,male,20,mseuf,bsit,ict,2,4,1,1,4,1,0
+115,male,21,mseuf,bsit,ict,3,4,1,1,0,0,0
+116,male,21,mseuf,bscs,ict,3,1,2,5,4,2,1
+117,male,21,mseuf,bsit,ict,3,3,1,4,4,1,0
+118,male,21,mseuf,bscs,ict,3,5,1,1,4,1,0
+119,male,21,mseuf,bscs,ict,3,5,1,1,4,2,0
+120,male,18,mseuf,bsce,ceng,1,1,3,2,4,1,0
+121,male,20,mseuf,bscs,ict,3,6,2,5,4,1,0
+122,female,20,mseuf,bsce,ceng,1,1,1,5,4,2,0
+123,female,19,mseuf,bsme,ceng,1,2,1,1,4,0,0
+124,female,21,mseuf,bspsy,cas,3,3,1,3,4,0,0
+125,female,21,mseuf,bscs,ict,2,2,1,1,4,2,0
+126,male,21,mseuf,bscs,ict,3,5,1,1,4,0,0
+127,male,21,mseuf,bscs,ict,3,2,1,1,4,2,0
+128,male,21,mseuf,bspsy,cas,3,6,1,2,0,0,0
+129,female,21,mseuf,bspsy,cas,3,3,3,3,4,3,0
+130,male,20,mseuf,bspsy,cas,2,3,1,4,0,0,0
+131,male,21,mseuf,bscs,ict,3,3,2,4,4,1,0
+132,female,21,mseuf,bspsy,cas,4,4,1,1,4,0,0
+133,male,19,mseuf,bsemc,ict,1,4,1,3,0,0,0
+134,male,19,mseuf,bsie,ceng,1,3,2,1,4,3,0
+135,female,22,mseuf,bsba,cba,4,3,3,2,4,1,0
+136,female,22,mseuf,bsba,cba,4,4,2,5,4,0,0
+137,female,21,mseuf,bscs,ict,3,3,2,4,4,3,1
+138,male,19,mseuf,bsba,cba,1,3,1,2,0,0,0
+139,male,20,mseuf,bsme,ceng,2,1,4,2,4,1,0
+140,male,22,mseuf,bscpe,ceng,2,4,1,1,4,0,0
+141,female,20,mseuf,bsemc,ict,1,2,2,4,4,1,0
+142,male,21,mseuf,bsit,ict,3,2,2,4,4,1,0
+143,male,18,mseuf,bsce,ceng,1,4,1,1,4,1,0
+144,female,19,mseuf,bsie,ceng,1,3,1,1,4,2,0
+145,female,20,mseuf,bsed,ced,2,4,1,1,4,1,0
+146,male,22,mseuf,bsba,cba,4,2,1,1,4,1,0
+147,male,19,mseuf,bscs,ict,1,4,2,5,4,1,0
+148,male,21,mseuf,bslis,cas,3,2,2,1,4,1,0
+149,female,21,mseuf,bfa,cafa,4,3,2,1,4,1,0
+150,female,23,mseuf,bfa,cafa,4,2,1,5,4,1,0
+151,female,21,mseuf,bsa,cafa,3,2,1,1,4,2,0
+152,female,18,mseuf,bsie,ceng,1,2,1,3,4,1,0
+153,male,22,mseuf,bscs,ict,3,4,1,1,4,0,0
+154,female,22,mseuf,bfa,cafa,4,4,1,1,4,1,0
+155,male,19,mseuf,bscpe,ceng,1,3,1,3,4,0,0
+156,male,18,mseuf,bsee,ceng,1,4,2,5,4,0,0
+157,male,23,mseuf,bscpe,ceng,1,1,1,1,4,0,0
+158,female,19,mseuf,bsie,ceng,1,3,1,1,4,2,0
+159,female,19,mseuf,bsba,cba,1,5,1,1,0,1,0
+160,male,18,mseuf,bsee,ceng,1,3,2,5,4,0,1
+161,male,18,mseuf,bsit,ict,1,3,2,1,0,0,0
+162,male,20,mseuf,bscs,ict,1,2,3,2,4,3,0
+163,female,18,mseuf,bsee,ceng,1,3,2,1,4,2,0
+164,male,19,mseuf,bsie,ceng,1,1,1,1,4,3,1
+165,female,18,mseuf,bsie,ceng,1,3,3,2,4,1,0
+166,female,18,sti,bstm,htm,1,2,3,2,4,1,0
+167,female,19,mseuf,bsie,ceng,1,2,2,4,4,2,0
+168,female,18,mseuf,bstm,htm,1,2,1,5,4,2,0
+169,male,18,mseuf,bsce,ceng,1,1,1,1,4,0,0
+170,female,18,slsu,bsed,ced,1,1,2,5,0,0,0
+171,female,18,mseuf,bsba,cba,1,3,2,4,4,1,0
+172,female,19,sti,bsit,ict,1,4,1,1,4,1,0
+173,female,18,slsu,bsie,ceng,1,2,1,1,4,1,0
+174,female,19,mseuf,bscpe,ceng,1,3,2,3,4,2,0
+175,female,19,slsu,abpsy,cas,2,1,1,5,4,1,0
+176,female,20,slsu,abpsy,cas,2,2,1,5,4,2,0
+177,female,19,mseuf,bsn,ahs,1,1,1,1,4,1,0
+178,female,18,mseuf,bsn,ahs,1,1,1,1,4,1,0
+179,male,19,mseuf,bsce,ceng,1,3,2,1,4,1,0
+180,male,18,mseuf,bsce,ceng,1,3,1,1,4,1,0
+181,female,19,mseuf,bsce,ceng,1,5,1,1,4,2,0
+182,female,21,cstc,bsed,ced,3,1,1,1,4,3,0
+183,female,21,dll,bsa,cba,1,2,1,1,4,2,0
+184,female,21,dll,bsa,cba,1,2,1,1,4,2,0
+185,female,18,slsu,bsbio,cas,1,2,1,5,4,0,0
+186,female,18,cefi,bsmet,cba,1,2,1,1,0,0,0
+187,female,22,mseuf,bsmet,cba,4,4,2,1,4,2,0
+188,male,18,slsu,bsa,cba,2,2,1,1,4,3,0
+189,female,21,slsu,bsed,ced,3,2,1,1,4,1,0
+190,male,20,cstc,bsee,ceng,2,2,1,1,4,1,0
+191,female,20,slsu,btvted,ced,2,3,1,1,4,0,0
+192,male,19,sacli,bsn,ahs,1,2,1,1,4,2,0
+193,female,19,mseuf,bsa,cba,1,2,2,4,4,2,0
+194,female,19,mseuf,bsn,ahs,1,3,2,5,4,1,0
+195,female,18,mseuf,bsa,cba,1,3,3,2,4,2,0
+196,female,18,cefi,bspsy,cas,1,4,1,5,4,2,0
+197,female,19,cefi,bspsy,cas,1,3,1,1,4,1,0
+198,female,18,slsu,bses,cag,1,3,1,1,4,2,0
+199,female,18,slsu,bses,cag,1,1,1,1,4,0,0
+200,female,19,slsu,bses,cag,1,3,3,2,4,0,0
+201,female,19,slsu,bsed,ced,1,2,1,1,0,0,0
+202,female,19,mseuf,bsge,ceng,1,2,2,1,4,1,0
+203,female,19,cefi,bspsy,cas,1,3,1,5,4,1,0
+204,male,23,mseuf,bscrim,crim,4,2,1,1,0,0,0
+205,female,20,mseuf,bsa,cba,1,2,1,1,4,1,0
+206,female,18,mseuf,bscs,ict,1,1,3,2,4,3,0
+207,female,19,cefi,bsn,ahs,1,3,1,5,4,1,0
+208,female,19,cefi,bsmet,ahs,1,4,2,1,4,2,0
+209,female,19,slsu,bses,cag,1,2,2,5,4,0,0
+210,female,18,cefi,bsmet,ahs,1,3,1,5,4,2,0
+211,male,21,dll,bsit,ict,3,2,3,2,4,0,0
+212,female,19,slsu,bsbio,cas,1,2,1,5,4,0,0
+213,female,18,mseuf_catanauan,bsba,cba,1,2,1,1,4,2,0
+214,female,19,slsu,bses,cag,1,1,1,5,4,1,0
+215,male,19,cefi,bsn,ahs,1,3,2,5,4,2,0
+216,male,19,cct,bstm,htm,1,1,1,3,4,0,0
+217,male,19,mseuf,bsce,ceng,1,2,2,2,4,1,0
+218,male,19,mc,bsn,ahs,1,4,3,2,4,2,1
+219,female,19,mseuf,bsa,cba,1,1,1,1,4,1,0
+220,male,19,mc,bsn,ahs,1,2,2,2,4,0,0
+221,male,20,cct,bstm,htm,1,1,1,1,4,1,1
+222,male,19,shc,bsn,ahs,1,3,1,1,4,1,1
+223,female,21,mseuf,bsed,ced,1,3,2,4,4,1,0
+224,male,19,slsu,bsee,ceng,1,1,1,5,4,2,0
+225,male,23,mseuf,bsce,ceng,3,2,1,1,4,2,0
+226,female,19,qeci,bsba,cba,2,5,5,5,4,3,0
+227,male,19,mseuf,bsce,ceng,1,1,2,4,4,1,0
+228,female,19,ltc,bsn,ahs,1,2,1,1,4,2,0
+229,male,18,mseuf,bsma,cba,1,3,2,4,4,2,0
+230,female,22,igcfi,bshm,htm,2,4,1,1,4,1,0
+231,male,21,mseuf,bscrim,crim,2,3,1,1,4,1,0
+232,female,19,slsu,bsee,ceng,1,4,2,2,4,1,0
+233,male,18,cefi,bsn,ahs,1,3,4,1,4,1,0
+234,female,19,mseuf,bsie,ceng,1,6,1,5,4,1,0
+235,male,18,mseuf,bsce,ceng,1,2,1,1,4,3,0
+236,female,19,mc,bsn,ahs,1,2,2,5,4,3,0
+237,male,18,sti,bscpe,ceng,1,2,1,1,4,1,0
+238,female,18,mseuf_catanauan,bsce,ceng,1,2,1,1,4,1,0
+239,female,20,mseuf,bsce,ceng,2,4,1,5,4,0,0
+240,female,19,cefi,bsn,ahs,1,5,2,4,4,1,0
+241,female,17,slai,bsn,ahs,1,2,3,3,4,2,0
+242,female,19,cct,bscs,ict,1,1,1,1,4,1,0
+243,female,18,mseuf,bsce,ceng,1,1,1,5,4,1,0
+244,male,20,mc,bsba,cba,1,1,3,2,4,0,0
+245,female,19,mc,bsn,ahs,1,3,1,1,4,1,1
+246,female,19,cefi,bsrt,ahs,1,2,2,2,4,0,0
+247,female,21,dll,bssw,cas,3,2,1,4,4,0,0
+248,male,19,cefi,bspsy,cas,1,3,1,4,4,1,0
+249,female,20,mseuf,bsge,ceng,1,5,1,1,4,2,0
+250,male,18,mseuf,bsee,ceng,1,1,3,5,4,0,0
+251,male,23,ltc,bscrim,crim,1,1,1,1,4,0,1
+252,male,19,mseuf,bscrim,crim,1,2,1,2,4,0,0
+253,female,18,mseuf,bsbio,cas,1,3,1,2,4,1,0
+254,female,18,slsu,btvted,ced,1,1,2,1,4,3,0
+255,male,19,slsu,bsa,cag,1,3,2,5,4,0,0
+256,male,19,mseuf,bscrim,crim,2,2,3,2,4,1,0
+257,female,19,dll,bsais,cba,1,2,1,1,4,2,0
+258,male,19,mseuf,bsbio,cas,1,6,3,5,4,2,0
+259,female,19,slsu,bsce,ceng,1,2,1,5,4,0,0
+260,female,20,mseuf,bsa,cba,1,2,1,2,4,0,0
+261,male,21,mseuf,bsmt,cme,3,3,3,2,4,1,0
+262,female,19,shc,bsn,ahs,1,2,2,1,0,0,0
+263,female,19,mc,bsba,cba,1,2,1,3,0,0,0
+264,female,18,dll,btvted,ced,1,3,1,1,4,1,0
+265,female,18,cefi,bsmet,ahs,1,3,1,1,4,1,0
+266,female,20,slsu,btvted,ced,2,3,1,1,4,1,0
+267,male,19,dll,bspa,cas,1,1,1,1,4,1,0
+268,female,22,mseuf,bspsy,cas,3,2,2,4,4,1,0
+269,female,18,mc,bsn,ahs,1,3,1,1,4,0,0
+270,female,21,mseuf,bspsy,cas,3,4,2,5,4,0,0
+271,female,18,shc,bsn,ahs,1,3,1,4,4,0,0
+272,male,19,igcfi,bsca,cba,1,2,1,1,4,0,0
+273,female,19,slsu,bsee,ceng,1,3,1,5,4,1,0
+274,female,19,mseuf,bspsy,cas,2,1,1,1,4,2,0
+275,female,19,mseuf,bspsy,cas,1,4,1,1,4,0,1
+276,female,18,mseuf,bspsy,cas,1,3,2,4,4,1,0
+277,female,19,qcrs,bsa,cba,1,2,1,1,4,2,0
+278,female,20,mseuf,bspsy,cas,2,3,1,1,4,1,0
+279,female,19,dll,bspa,cas,1,3,2,1,4,1,0
+280,male,18,sti,bscm,htm,1,1,1,5,4,1,0
+281,female,19,sacli,bsn,ahs,1,2,1,5,4,2,0
+282,male,19,mseuf_candelaria,bsn,ahs,1,7,4,1,4,2,1
+283,female,18,qcrs,bsa,cba,1,2,1,1,4,2,0
+284,female,19,cct,bscs,ict,1,1,1,1,0,1,0
+285,male,20,mseuf,bsce,ceng,2,1,3,2,0,0,0
+286,female,19,dll,bsentrep,cba,1,2,1,1,4,1,0
+287,female,19,mseuf,bshm,htm,1,2,2,4,0,1,0
+288,male,20,shc,bsba,cba,2,4,2,1,4,0,0
+289,female,20,mseuf,bspsy,cas,2,3,1,1,4,2,1
+290,female,20,mseuf,bspsy,cas,3,2,1,2,0,0,0
+291,female,19,mseuf,bshm,htm,1,2,1,1,4,2,0
+292,female,18,qcrs,bsa,cba,1,2,1,1,4,2,0
+293,female,20,mseuf,bspsy,cas,2,2,2,4,4,0,0
+294,female,21,mseuf,bsmet,ahs,1,3,1,5,4,0,0
+295,male,23,mseuf,bspsy,cas,3,3,1,1,0,0,0
+296,female,21,mseuf,beed,ced,3,4,1,1,4,2,0
+297,female,18,mseuf,beed,ced,1,2,3,3,4,2,0
+298,female,19,mseuf,bspsy,cas,2,1,1,4,4,2,0
+299,female,19,sti,bsba,cba,1,3,1,5,4,3,0
+300,female,19,piat,dhst,htm,1,2,1,1,4,2,1
+301,female,18,cefi,bstm,htm,1,4,1,1,4,0,0
+302,female,18,cefi,bsmet,ahs,1,4,1,1,0,0,0
+303,female,18,cefi,bsn,ahs,1,1,1,1,4,1,0
+304,male,17,mseuf,bsce,ceng,1,7,1,4,4,2,0
+305,female,17,cefi,bsn,ahs,1,3,2,1,0,0,0
+306,female,19,mseuf,bshm,htm,1,4,1,1,4,0,0
+307,female,21,mseuf,bsmet,ahs,1,3,1,1,0,0,0
+308,female,19,slsu,abcomm,cas,1,1,1,5,4,1,0
+309,female,19,mseuf,bsed,ced,1,2,2,1,4,1,0
+310,male,18,mseuf,bsn,ahs,1,2,1,1,4,0,0
+311,female,21,ltc,bscrim,crim,1,2,1,1,4,1,0
+312,male,18,mseuf,bsit,ict,1,3,1,1,4,1,0
+313,female,18,mseuf,bsa,cafa,1,3,1,5,4,1,0
+314,female,18,nqci,bsed,ced,1,1,1,1,4,1,0
+315,female,19,dll,bspa,cas,2,1,1,1,4,2,0
+316,male,19,slsu,bsme,ceng,1,2,1,1,4,1,0
+317,female,19,mseuf,bsit,ict,1,3,3,2,4,2,0
+318,female,19,mseuf,bsn,ahs,1,3,4,5,4,0,0
+319,female,19,sacli,bsn,ahs,1,2,1,1,4,1,0
+320,male,20,mseuf,bscs,ict,1,2,1,1,0,0,0
+321,female,18,slsu,bshm,htm,1,1,1,5,4,1,0
+322,female,19,mseuf,bsmet,ahs,1,3,1,5,4,2,0
+323,female,23,slsu,bspa,cas,4,3,1,1,0,0,0
+324,female,19,sti,bstm,htm,1,1,1,1,4,2,0
+325,female,18,mseuf,bspsy,cas,1,2,1,1,4,0,0
+326,male,21,ltc,bscrim,crim,1,1,1,1,0,0,0
+327,female,20,mseuf,bsed,ced,2,1,1,1,4,0,0
+328,female,18,mseuf,bsba,cba,1,2,2,4,4,1,0
+329,male,19,ltc,bscrim,crim,1,1,1,1,4,3,0
+330,male,19,ltc,bscrim,crim,1,2,2,1,4,0,0
+331,male,19,bwest,bshm,htm,2,1,5,5,4,3,0
+332,female,20,mseuf,bsed,ced,2,3,1,5,4,1,0
+333,female,19,mseuf,bsmet,ahs,1,3,3,2,4,2,0
+334,female,20,mseuf,beed ,ced,2,5,1,2,4,1,0
+335,female,19,slsu,abpsy,cas,1,2,1,1,4,1,0
+336,female,19,erhtci,bsit,ict,1,3,2,1,0,0,0
+337,female,20,mseuf,beed,ced,2,1,1,4,4,1,0
+338,female,21,CVE,bsba,cba,3,3,1,1,4,1,0
+339,female,18,MSEIFI,bsba,cba,1,2,1,1,0,1,0
+340,female,21,qcci_atimonan,bsba,cba,2,1,2,1,4,2,0
+341,female,19,slsu,bscpe,ceng,1,2,1,1,4,0,0
+342,female,19,qcrs,bsa,cba,1,1,1,2,4,1,0
+343,male,19,igcfi,bsca,cba,1,2,3,3,4,2,1
+344,female,19,slsu,bsagri,cag,1,6,1,5,4,0,0
+345,female,18,mseuf,bspsy,cas,1,3,1,2,4,0,0
+346,male,19,sti,bsit,ict,1,2,3,4,4,1,0
+347,female,20,ltc,bspsy,cas,2,3,1,1,4,1,0
+348,female,19,cefi,bsmet,ahs,1,2,1,2,4,1,0
+349,male,19,igcfi,bsmt,cme,1,2,2,2,4,2,0
+350,male,19,sti,bsba,cba,1,3,4,2,4,1,0
+351,male,19,sti,bsit,ict,1,3,2,1,4,1,0
+352,female,18,slsu,bsba,cba,1,2,1,1,4,3,0
+353,female,22,slsu,bsba,cba,4,3,1,1,4,1,0
+354,male,18,igcfi,bsmt,cme,1,2,1,1,0,0,0
+355,female,18,cefi,bspsy,cas,1,2,1,1,4,0,0
+356,female,18,slsu,bsed,ced,1,1,2,5,0,0,0
+357,male,19,mseuf,bsme,ceng,1,1,2,1,4,1,0
+358,female,19,slsu,bscpe,ceng,1,2,1,5,4,1,0
+359,female,19,cstc,bspsy,cas,1,1,1,1,4,3,0
+360,male,18,sacli,bsn,ahs,1,4,4,2,4,3,0
+361,male,18,sacli,bsn,ahs,1,4,4,2,4,1,0
+362,male,23,mseuf,bsarch,cafa,5,3,1,1,4,1,0
+363,male,23,mseuf,bscpe,ceng,1,1,2,1,0,0,1
+364,male,21,sacli,bsn,ahs,3,3,1,1,4,2,0
+365,male,20,mseuf,bscpe,ceng,2,5,1,2,4,1,0
+366,female,18,igcfi,bshm,htm,1,4,1,1,4,2,0
+367,female,18,mseuf,bsn,ahs,1,3,1,3,4,0,0
+368,female,18,cefi,bsmet,ahs,1,3,2,5,4,0,0
+369,female,19,mseuf,bsn,ahs,1,2,1,5,4,1,0
+370,female,18,mseuf,bsed,ced,1,1,3,3,4,2,0
+371,female,19,slsu,bsba,cba,1,2,2,5,4,1,0
+372,male,19,mseuf,bsee,ceng,1,2,1,1,4,0,0
+373,female,19,mseuf,bsce,ceng,1,3,1,1,4,2,1
+374,male,18,mseuf,bsce,ceng,1,3,2,4,4,0,0
+375,female,20,mseuf,bsce,ceng,3,1,2,4,4,3,0
+376,male,18,slsu,bsed,ced,1,2,1,5,4,0,0
+377,female,18,sti,dmd,ahs,1,6,4,1,4,1,1
+378,female,18,sti,bsmt,cme,1,3,2,4,4,1,0
+379,male,19,sacli,dmd,ahs,1,4,3,5,4,0,0
+380,female,18,ltc,bsa,cba,1,3,1,2,4,0,0
+381,male,19,sacli,dmd,ahs,1,4,1,1,0,0,0
+382,male,18,sacli,dmd,ahs,1,2,3,2,4,1,0
+383,female,19,mseuf,abcomm,cas,1,5,3,2,4,2,0
+384,female,21,nqci,bsba,cba,3,2,1,5,4,0,0
+385,female,18,mc,bsn,ahs,1,2,1,1,4,1,0
+386,female,19,slsu,bsit,ict,1,1,2,4,4,2,0
+387,female,22,pup_mulanay,domt,cba,3,1,2,1,4,1,0
+388,male,19,mseuf,bsemc,ict,1,3,1,1,4,1,0
+389,female,19,dll,bsentrep,cba,1,1,2,2,4,1,0
+392,female,19,slsu,abpsy,cas,1,1,1,1,4,2,0
+393,male,19,igcfi,bsmt,cme,1,4,1,4,4,3,0
+394,female,19,sacli,dmd,ahs,1,3,1,2,4,0,0
+395,female,21,mseuf,bsce,ceng,4,2,1,1,4,1,0
+396,female,19,slsu,btled,ced,2,3,2,1,4,1,0
+397,male,18,cscb,dcit,ict,1,1,3,2,4,1,0
+398,male,23,mseuf,bsme,ceng,4,2,2,2,4,2,0
+399,female,18,shc,bsn,ahs,1,3,1,5,0,0,0
+400,male,21,mseuf,bsce,ceng,4,3,2,5,4,0,0
+401,male,18,igcfi,bsmt,cme,1,3,1,1,4,0,0
+402,female,18,slsu,bscpe,ceng,1,2,1,5,4,3,0
+403,male,20,mseuf,bshm,htm,1,3,1,5,0,0,0
+404,female,18,igcfi,bsca,cba,1,2,1,5,0,0,0
+405,male,21,mseuf,bsme,ceng,3,3,1,5,4,0,0
+406,female,19,mseuf,bsce,ceng,1,2,1,1,4,1,0
+407,female,19,shc,bsn,ahs,1,3,1,5,4,0,0
+408,male,18,slsu,bsme,ceng,1,2,1,5,4,2,0
+409,female,19,slsu,bsece,ceng,1,4,1,1,4,1,0
+410,male,19,shc,bsn,ahs,1,5,1,2,4,1,0
+411,female,18,dll,bsa,cba,1,1,1,1,0,0,0
+412,female,19,igcfi,bsmt,cme,1,2,3,4,4,0,0
+413,female,18,shc,bsn,ahs,1,4,4,4,4,1,0
+414,male,22,sti,bsit,ict,4,3,1,1,4,2,0
+415,female,18,sti,bsit,ict,1,2,1,5,4,2,0
+416,female,19,slsu,abhistory,cas,1,2,2,1,4,1,0
+417,female,21,cstc,bstm,htm,4,1,1,1,4,2,0
+418,male,22,bwest,bshm ,htm,2,1,5,1,4,3,0
+419,female,18,slsu,bsrt,ahs,1,1,1,5,4,1,0
+420,male,21,pkm,bsed,ced,3,2,4,2,4,1,0
+421,female,18,shc,bsn,ahs,1,3,1,1,4,0,0
+422,female,19,bwest,bshm,htm,2,3,5,4,4,3,0
+423,male,19,sti,bsit,ict,1,2,1,1,4,0,0
+424,male,22,cstc,bstm,htm,4,1,5,4,4,2,0
+425,female,21,mseuf,bsmet,ahs,3,1,1,1,4,2,0
+426,female,19,shc,bsn,ahs,1,2,1,1,4,0,0
+427,male,18,slsu,bsit,ict,1,1,3,2,4,2,0
+428,female,19,slsu,bsba,cba,2,1,3,2,4,2,0
+429,female,20,cefi,bsn,ahs,2,2,1,1,4,1,0
+430,female,17,shc,bsph,ahs,1,2,2,2,4,2,0
+431,female,19,mseuf_candelaria,bsn,ahs,1,3,2,1,0,0,0
+432,female,21,dll,bpa,cas,3,3,1,1,4,0,0
+433,female,19,sacli,bsmet,ahs,1,2,1,1,4,1,0
+434,male,18,slsu,bsie,ceng,1,3,3,2,4,1,0
+435,female,20,mseuf,bsba,cba,1,2,1,1,4,1,0
+436,male,20,sacli,bscrim,crim,1,2,1,2,0,0,0
+437,male,20,dll,bsentrep,cba,2,2,1,1,4,1,0
+438,male,21,mseuf,bstm,htm,2,3,3,2,4,0,0
+439,male,18,mseuf,bsce,ceng,1,4,1,1,4,0,0
+440,female,19,slsu,bsme,ceng,1,3,3,2,4,1,0
+441,female,19,slsu,bsba,cba,2,2,1,1,4,1,0
+442,male,18,aces,bscrim,crim,1,3,1,1,4,1,0
+443,female,19,slsu_lucena,btvted,ced,2,1,1,5,4,1,0
+444,female,19,cefi,bsn,ahs,1,2,1,1,4,2,0
+445,female,19,mseuf,bsce,ceng,2,2,2,1,4,2,0
+446,female,19,cefi,bsn,ahs,1,4,1,3,4,0,0
+447,female,18,cefi,bsn,ahs,1,3,1,5,4,0,0
+448,female,18,mc,bsba,cba,1,1,1,1,4,3,0
+449,male,20,cstc,bsit,ict,2,1,1,1,4,0,0
+450,male,20,tup_lopez,bet-ct,ceng,1,4,1,1,0,0,0
+451,female,18,mseuf,bsge ,ceng,1,3,1,1,4,2,0
+452,female,19,mseuf,abcomm,cas,1,5,1,1,4,2,0
+453,male,18,tup_lopez,bet-ct,ceng,1,3,2,2,4,1,0
+454,male,18,cct,bscs,ict,1,2,1,1,4,0,0
+455,male,19,tup_lopez,bet-ct,ceng,1,1,1,1,0,0,0
+456,male,19,mseuf,bsn,ahs,1,3,1,1,4,0,0
+457,female,19,slsu,bsie,ceng,1,2,1,5,4,1,0
+458,female,21,slsu,bpa,cas,3,2,1,1,4,2,0
+459,male,18,igcfi,bsmt,cme,1,1,1,1,4,1,0
+460,female,21,cefi,bsn,ahs,3,1,3,5,4,0,0
+461,male,19,mseuf,bsme,ceng,1,4,1,1,4,0,0
+462,male,19,cct,bsentrep,cba,2,2,1,1,4,0,0
+463,male,19,mseuf,bsee,ceng,1,3,1,1,4,1,0
+464,male,19,cefi,bsn,ahs,1,2,2,4,4,0,0
+465,male,21,slsu,bpa,cas,3,1,1,5,4,2,0
+466,male,21,slsu,bpa,cas,3,2,1,5,4,2,0
+467,male,18,slsu,bsed,ced,1,3,1,1,4,2,0
+468,female,21,mseuf,bsma,cba,3,2,1,1,4,1,0
+469,female,19,dll,btvted,ced,2,2,1,1,4,2,0
+470,male,20,cct,bstm,htm,1,2,3,2,4,1,0
+471,female,19,mseuf,bsme,ceng,1,1,1,1,4,3,0
+472,male,19,cct,bscrim,crim,2,2,1,4,4,1,0
+473,male,18,mseuf,bscs,ict,1,4,3,2,4,2,0
+474,female,18,slsu,bsba,cba,1,2,1,5,4,1,0
+475,male,19,mseuf,bsce,ceng,1,4,1,2,4,0,0
+476,male,18,sacli,dmd,ahs,1,3,1,1,4,0,0
+477,female,21,mseuf,bshm ,htm,3,2,3,5,4,3,0
+478,male,19,tup_lopez,bet-ct,ceng,1,2,3,1,4,1,0
+479,female,20,cct,bscs,ict,1,1,1,2,4,1,0
+480,male,22,igcfi,bsmt,cme,4,3,2,1,4,1,0
+481,male,18,sacli,dmd,ahs,1,3,1,3,4,0,0
+482,female,19,shc,bsn,ahs,1,5,2,4,4,1,0
+483,female,19,sacli,dmd,ahs,1,5,1,5,4,3,0
+484,female,21,slsu,bpa,cas,3,2,1,5,4,0,0
+485,female,19,mseuf,bsme,ceng,1,3,1,1,4,2,0
+486,female,19,mseuf,abpolsci,cas,1,3,3,2,4,3,0
+487,female,18,sacli,dmd,ahs,1,4,1,1,4,2,0
+488,male,19,mseuf,bshm,htm,1,3,1,1,4,2,0
+489,female,19,cefi,bsmet,ahs,1,4,4,2,4,1,0
+490,male,19,slsu,bshm,htm,1,3,1,1,4,2,0
+491,female,18,sacli,dmd,ahs,1,4,2,5,4,1,0
+492,male,18,slsu,bsme,ceng,1,1,3,5,4,1,0
+493,female,19,cct,bstm,htm,1,1,2,4,4,2,1
+494,male,19,cstc,bscs,ict,1,3,1,1,4,2,0
+495,male,18,mseuf,bsme,ceng,1,5,2,5,4,2,0
+496,female,19,shc,bsn,ahs,1,6,1,1,4,1,0
+497,male,19,shc,bsn,ahs,1,4,2,1,4,1,0
+498,female,19,mseuf,bshm ,htm,1,2,1,1,4,2,0
+499,male,19,cct,bstm,htm,1,1,1,1,4,1,0
+500,female,19,mseuf,bshm ,htm,1,3,1,1,4,1,1
+501,male,19,mseuf,bshm,htm,1,2,1,2,4,1,1
+502,female,18,shc,bsn,ahs,1,6,1,1,4,0,0
+503,female,18,mseuf,bsit,ict,1,3,2,3,4,2,0
+504,female,19,sacli,bsn,ahs,1,2,3,3,4,1,0
+505,female,18,cct,bcaed,ced,1,2,2,2,4,2,0
+506,male,22,mseuf,bsce,ceng,4,2,1,1,4,1,0
+507,female,19,cefi,bsn,ahs,1,3,1,1,0,0,0
+508,male,18,cefi,bsn,ahs,1,7,1,1,0,0,0
+509,female,19,slsu,bsf,cag,1,3,1,5,4,3,0
+510,female,19,cefi,bsn,ahs,1,3,2,1,4,2,0
+511,female,19,cefi,bsn,ahs,1,3,2,1,4,2,0
+512,male,19,slsu,bsme,ceng,1,2,1,1,0,0,0
+513,male,18,tup_lopez,bet-ct,ceng,1,2,1,1,4,2,0
+514,male,20,mc,bsba,cba,1,3,1,1,0,0,0
+515,female,20,dll,dhrs,htm,2,2,1,1,4,0,0
+516,female,18,pkm,bsed,ced,1,2,1,1,0,1,0
+517,male,19,sacli,dmd,ahs,1,3,1,2,4,0,0
+518,male,19,mseuf,bped ,ced,1,3,1,1,4,1,1
+519,female,19,SFmc,bstm,htm,2,1,1,1,4,1,0
+520,female,18,pkm,bsed,ced,1,2,1,1,4,1,0
+521,male,18,slsu,bsed,ced,1,1,1,1,4,3,0
+522,female,19,sacli,dmd,ahs,1,6,4,5,4,3,0
+523,female,18,mseuf,bsce,ceng,1,3,1,1,4,2,0
+524,female,21,slsu,bshm,htm,4,3,1,5,4,1,0
+525,male,19,mseuf,bsme,ceng,1,5,1,2,4,0,1
+526,female,19,slsu,bsee,ceng,1,4,1,5,4,2,0
+527,female,21,pup_mulanay,beed,ced,4,2,2,1,4,1,0
+528,male,19,sacli,bsa,cba,1,4,1,5,4,1,0
+529,male,18,mseuf,bsmet,ahs,1,3,2,4,4,2,0
+530,male,18,mseuf,bsee,ceng,1,3,3,5,4,0,0
+531,female,19,slsu,bsed,ced,1,2,1,5,4,0,0
+532,male,21,dll,bsentrep,cba,2,3,2,4,4,1,0
+533,female,18,slsu,bpa,cas,1,1,1,1,4,2,0
+534,female,23,slsu,bpa,cas,3,2,1,1,4,2,0
+535,male,19,cefi,bsn,ahs,1,5,1,2,4,3,0
+536,female,19,cefi,bsn,ahs,1,2,1,1,0,0,0
+537,female,21,mseuf,bsarch,cafa,4,2,1,1,4,2,1
+538,male,20,mseuf_candelaria,bsn,ahs,2,4,3,2,4,0,0
+539,male,22,cstc,bped ,ced,3,1,4,5,4,2,1
+540,male,18,dll,bsentrep,cba,1,1,3,2,0,1,0
+541,female,19,qcrs,bsba,cba,1,3,4,2,0,0,0
+542,female,19,mseuf,bsn,ahs,1,4,2,2,4,1,0
+543,male,19,mseuf,bsce,ceng,1,3,4,2,4,1,0
+544,male,25,mseuf_candelaria,abpsy ,cas,3,4,1,1,4,1,0
+545,male,18,mseuf,bsce,ceng,1,4,3,5,4,2,0
+546,male,19,mseuf,bspsy,cas,1,2,1,4,4,0,0
+547,female,18,cefi,bsn,ahs,1,4,3,2,4,0,0
+548,male,23,mseuf,bsit,ict,1,3,1,1,4,0,0
+549,female,22,slsu,bsed,ced,4,1,1,1,0,0,0
+550,male,23,mseuf,bstm,htm,4,5,3,3,4,2,0
+551,female,18,cefi,bsn,ahs,1,1,1,5,4,2,1
+552,male,21,pup_mulanay,bpa ,cas,3,2,1,2,4,0,0
+553,male,20,pup_mulanay,beed ,ced,3,2,1,1,4,0,0
+554,male,19,mseuf,bsce,ceng,2,1,1,1,4,1,0
+555,male,19,nqci,bsba,cba,1,2,2,5,4,3,1
+556,female,21,MSEIFI,bsba,cba,3,1,1,1,0,0,0
+557,female,18,mseuf,bscrim,crim,1,1,1,1,4,2,1
+558,female,19,slsu_tayabas ,beed ,ced,1,2,1,1,4,1,0
+559,male,30,dll,bsit,ict,4,1,1,4,0,0,0
+560,female,18,mseuf,bsba,cba,1,1,1,1,4,2,0
+561,female,30,dll,bsit,ict,4,3,3,2,4,1,0
+562,male,18,mseuf,bscs,ict,1,4,1,1,4,2,0
+563,male,20,slsu,bsit,ict,1,3,1,1,4,2,0
+564,female,18,cstc,bstm,htm,1,1,1,1,4,0,0
+565,female,18,mseuf,bsn,ahs,1,3,1,1,4,0,0
+566,female,18,nqci,beed ,ced,1,1,1,1,4,0,0
+567,female,20,slsu,bsed,ced,1,3,3,5,4,1,0
+568,male,19,mseuf,bsarch,cafa,1,2,1,1,4,2,0
+569,female,18,slsu_catanauan,beed ,ced,1,2,3,2,4,1,0
+570,female,19,slsu_catanauan,beed ,ced,1,1,1,1,0,1,0
+571,female,19,slsu,btvted,ced,1,2,1,1,4,2,0
+572,female,19,slsu_catanauan,beed ,ced,1,1,1,1,4,3,0
+573,female,20,cefi,bsn,ahs,2,2,1,1,4,2,0
+574,female,19,slsu,beed ,ced,1,3,1,1,4,1,0
+575,female,18,slsu,beed ,ced,1,2,1,1,4,3,1
+576,female,19,shc,bsph ,ahs,1,2,3,3,4,3,0
+577,female,18,slsu_catanauan,beed ,ced,1,2,2,1,4,2,0
+578,female,19,slsu,bsba ,cba,1,3,1,5,4,1,0
+579,female,18,nqci,bsed,ced,1,3,1,1,0,0,0
+580,male,19,igcfi,bsmt,cme,1,2,2,1,4,2,0
+581,female,19,mc,bsn,ahs,2,2,1,5,4,2,0
+582,female,19,slsu,bsba,cba,1,2,1,5,4,1,0
+583,male,19,mseuf,bsme,ceng,1,4,1,5,4,1,0
+584,female,19,mseuf,bsba,cba,1,4,2,4,4,2,1
+585,male,19,cefi,bsn,ahs,1,3,2,1,0,0,0
+586,female,19,slsu,bsba ,cba,1,2,1,5,4,2,0
+587,male,18,igcfi,bsmt,cme,1,2,1,2,4,2,0
+588,female,21,slsu,beed ,ced,3,2,1,5,4,2,0
+589,female,19,slsu,bsrt,ahs,1,1,3,5,4,2,0
+590,male,19,mseuf,bsce,ceng,1,4,1,1,0,0,0
+591,female,18,slsu,bsed,ced,1,1,2,4,4,1,0
+592,female,18,slsu,bsba ,cba,1,3,2,4,4,1,1
+593,female,18,slsu,bsba,cba,1,4,1,1,4,1,0
+594,female,19,mseuf,bsba,cba,1,1,2,4,4,1,0
+595,female,18,mseuf,bspsy,cas,1,5,2,2,4,3,0
+596,female,22,slsu,btvted,ced,1,1,3,2,4,1,0
+597,female,18,slsu,bsba,cba,1,2,1,5,4,2,0
+598,male,22,mseuf,bscpe,ceng,1,3,1,5,4,1,0
+599,female,21,slsu,bsa,cba,3,3,2,5,4,3,0
+600,female,22,slsu,bsba ,cba,1,1,1,5,4,1,0
+601,female,18,mseuf,bsce,ceng,1,1,2,2,4,3,1
+602,female,18,mseuf,bsba,cba,1,4,1,1,4,3,0
+603,male,18,cefi,bsed,ced,1,3,1,1,4,3,1
+604,female,21,mseuf,bsmet,ahs,3,3,1,1,4,2,0
+605,female,19,CVE,bsba,cba,1,2,2,4,4,1,0
+606,female,19,mseuf,bsba,cba,1,2,1,1,4,2,0
+607,male,19,slsu,bsie,ceng,1,2,1,1,4,1,0
+608,female,18,mseuf,bstm ,htm,1,1,1,5,4,3,0
+609,female,19,slsu,bsba,cba,1,2,1,5,4,1,0
+610,female,19,cefi,bsn,ahs,1,2,4,5,4,3,0
+611,female,20,cefi,bspsy,cas,1,1,1,1,4,2,0
+612,male,20,slsu,bsce,ceng,3,2,3,2,4,1,0
+613,female,18,slsu,bsie ,ceng,1,2,1,1,4,2,0
+614,female,19,sacli,dmd,ahs,1,3,2,4,4,2,0
+615,female,23,mseuf_catanauan,bsed,ced,4,2,3,4,4,1,0
+616,male,19,dll,bsentrep,cba,1,1,1,3,4,2,0
+617,female,21,mseuf,bsmet,ahs,3,2,1,1,4,0,0
+618,male,23,pup_mulanay,bsba,cba,3,1,3,2,4,0,0
+619,female,18,cefi,bspsy,cas,1,4,1,5,4,3,0
+620,female,19,slsu,bsn,ahs,1,2,2,5,4,2,0
+621,male,19,mseuf,bscs,ict,1,4,2,1,4,1,0
+622,female,18,mseuf,bsarch,cafa,1,5,1,1,4,2,0
+623,female,19,pup_mulanay,bsmet,ahs,1,2,1,1,4,0,0
+624,female,19,mseuf,bscs,ict,1,2,1,1,4,2,0
+625,female,18,mseuf,bsn,ahs,1,2,1,1,4,1,0
+626,male,18,mseuf,bsn,ahs,1,3,1,1,4,2,0
+627,female,23,pup_mulanay,bsoa,cba,4,3,1,1,4,2,0
+628,female,18,pup_mulanay,bsoa,cba,1,1,1,5,4,1,0
+629,female,19,mseuf_catanauan,beed ,ced,1,3,2,1,4,1,0
+630,female,19,slsu,bsba,cba,1,2,2,5,4,1,0
+631,male,18,dll,bsit ,ict,1,4,2,4,4,1,0
+632,male,18,mseuf,bscpe,ceng,1,3,1,1,4,1,0
+633,female,19,slsu,bsn,ahs,1,1,3,5,4,3,0
+634,male,19,mseuf,bsme,ceng,1,2,2,1,4,1,0
+635,female,18,mseuf_catanauan,bsba,cba,1,1,1,1,4,2,0
+636,female,19,pup_mulanay,bsoa,cba,1,2,1,5,4,2,0
+637,female,19,cefi,bspsy,cas,1,2,2,5,4,2,0
+638,female,19,mseuf,bsn,ahs,1,3,1,1,4,2,0
+639,female,19,pup_mulanay,bsoa,cba,1,1,1,5,0,1,0
+640,male,18,pup_mulanay,dcet,ceng,1,1,3,5,4,1,0
+641,male,18,mseuf,bsece,ceng,1,2,1,2,4,3,0
+642,female,19,mseuf,bspsy,cas,1,3,3,2,4,2,0
+643,female,19,slsu,bsba,cba,1,3,1,5,4,0,0
+644,female,19,pup_mulanay,beed ,ced,1,1,1,1,4,0,0
+645,female,19,mseuf_catanauan,bsba,cba,1,1,1,4,4,3,0
+646,female,20,mseuf,bsce,ceng,1,1,1,5,4,1,0
+647,female,19,sacli,bsn,ahs,1,2,1,1,4,1,0
+648,female,19,pup_mulanay,bsentrep,cba,1,1,1,5,4,1,0
+649,female,19,mseuf,bsba,cba,1,4,1,1,4,0,0
+650,female,20,mseuf_catanauan,bsba,cba,2,2,1,1,4,1,0
+651,female,19,slsu, bsie ,ceng,1,1,1,1,4,1,0
+652,female,19,slsu,beed,ced,1,3,1,1,4,0,0
+653,male,19,mseuf,bsn,ahs,1,2,4,5,4,3,0
+654,female,20,slsu,beed,ced,1,2,1,1,4,2,0
+655,female,19,slsu,bsit-ct,ict,1,2,1,1,4,0,0
+656,male,18,mseuf,bsmet,ahs,1,4,2,1,4,2,0
+657,female,19,mseuf,bstm,htm,1,3,2,2,4,3,0
+658,male,22,sacli,bsn,ahs,4,2,4,2,4,2,0
+659,female,19,mseuf,bsn,ahs,1,2,1,1,4,0,0
+660,female,18,mseuf,bsn,ahs,1,4,1,5,4,2,0
+661,female,18,pup_mulanay,dcet,ceng,1,3,1,5,4,2,0
+662,female,19,ltc,bsis,ict,1,2,1,5,4,2,0
+663,female,18,cefi,bspsy,cas,1,2,3,2,4,1,0
+664,male,19,mseuf,bsce,ceng,1,1,1,1,4,2,0
+665,male,18,mseuf,bsge ,ceng,1,4,1,1,4,2,0
+666,male,18,slsu,bsed,ced,1,1,1,5,4,0,0
+667,female,19,mseuf,bsn,ahs,1,3,1,1,4,2,0
+668,male,20,mseuf,bscrim,crim,1,7,1,5,4,3,1
+669,female,19,slsu,bsba,cba,1,1,1,5,4,2,0
+670,female,18,ltc,bsa,cba,1,2,2,4,4,2,0
+671,female,18,cct,bstm,htm,1,3,3,2,4,2,1
+672,female,19,cstc,bsed,ced,1,3,1,1,4,1,0
+673,female,19,mseuf,bsn,ahs,1,4,1,1,4,1,0
+674,male,21,cstc,bshm,htm,4,1,1,1,4,2,0
+675,female,19,sti,bstm,htm,1,2,1,1,4,0,0
+676,female,20,mseuf,bsie,ceng,1,5,3,3,4,3,0
+677,female,19,cefi,bsrt,ahs,1,3,2,5,4,2,0
+678,female,18,slsu,abcomm,cas,1,1,3,5,4,2,0
+679,female,18,slsu,bsrt,ahs,1,3,1,5,4,2,0
+680,female,20,dll,ba english,cas,2,2,1,1,4,0,0
+681,female,18,slsu,bsed,ced,1,1,1,1,4,1,0
+682,female,18,cefi,bspsy,cas,1,4,4,5,4,2,1
+683,female,19,mseuf,bstm,htm,1,2,1,1,4,1,1
+684,female,21,mseuf_catanauan,beed,ced,3,2,1,1,4,1,0
+685,female,21,PLSP,bshm,htm,3,4,1,5,4,2,0
+686,female,18,slsu,bsie,ceng,1,1,1,1,4,1,0
+687,male,21,mseuf_catanauan,beed,ced,3,1,1,1,4,0,0
+688,male,19,mseuf_catanauan,bsit,ict,1,5,1,1,4,1,0
+689,female,20,slsu,bsagri,cag,2,2,3,5,4,0,0
+690,male,19,mseuf,bshm,htm,1,3,1,4,4,1,0
+691,female,21,slsu,bsagri,cag,3,2,1,5,4,2,0
+692,female,18,erhtci,bsit,ict,1,4,1,1,4,1,0
+693,female,18,slsu,bsba,cba,1,1,1,5,4,1,0
+694,female,20,slsu,beed ,ced,3,2,2,1,4,0,0
+695,female,18,pkm,bsais,cba,1,2,3,5,4,2,1
+696,female,19,pup_mulanay,bsce,ceng,1,2,1,5,4,1,0
+697,male,19,mseuf,bsba,cba,1,2,1,1,4,0,0
+698,male,19,mc,bsn,ahs,1,2,2,1,4,1,0
+699,female,19,cefi,bsrt,ahs,1,1,2,2,4,2,0
+700,female,20,mseuf,bsed,ced,1,3,1,5,4,2,0
+701,female,19,slsu,bsit,ict,1,1,3,2,0,0,0
+702,female,19,pkm,beed,ced,1,2,1,1,4,1,0
+703,male,18,erhtci,bsit,ict,1,1,3,5,4,1,1
+704,female,18,pkm,bsed,ced,1,2,2,4,4,3,0
+705,female,19,slsu,bsed,ced,1,1,1,1,4,1,0
+706,female,20,pkm,bsed,ced,1,1,3,3,4,3,0
+707,male,20,pkm,bsed,ced,1,1,4,4,4,3,0
+708,female,19,slsu,bsece,ceng,1,2,1,1,4,2,0
+709,male,19,slsu_catanauan,bsit,ict,1,1,1,2,4,1,0
+710,female,18,mseuf_catanauan,beed ,ced,1,3,1,1,4,2,0
+711,female,19,slsu,bsed,ced,1,2,1,5,4,2,0
+712,female,20,mseuf,bspsy,cas,2,3,1,1,4,2,0
+713,female,20,slsu,bsit,ict,3,2,1,5,4,2,0
+714,female,22,mseuf,bstm ,htm,4,4,1,5,4,3,0
+715,male,19,pkm,bsed,ced,1,3,1,1,4,2,0
+716,male,18,mseuf,bsarch,cafa,1,1,3,4,4,2,0
+717,female,20,pkm,bsed,ced,1,1,1,1,4,1,0
+718,male,20,tup_lopez,bet-ct,ceng,1,2,1,1,4,1,0
+719,female,21,mseuf,beed ,ced,4,3,2,1,4,3,0
+720,male,18,tup_lopez,bet-ct,ceng,1,1,1,1,4,1,0
+721,female,21,mseuf,beed,ced,4,3,1,5,4,1,0
+722,female,19,mseuf,bspsy ,cas,2,1,3,2,4,3,0
+723,female,22,slsu,bshm,htm,4,2,1,1,4,0,0
+724,male,21,slsu,bsit,ict,3,3,2,4,4,0,0
+725,male,20,cct,bstm,htm,1,2,1,1,4,2,0
+726,female,19,slsu,bsn,ahs,1,2,1,5,4,1,0
+727,female,20,slsu,bsba,cba,3,2,1,1,4,1,0
+728,female,19,mseuf,bsmet,ahs,1,4,2,1,4,2,0
+729,female,18,shc,bsn,ahs,1,4,1,5,4,1,0
+730,female,18,cstc,bsba,cba,1,5,1,1,4,3,0
+731,female,19,cstc,bsa,cba,1,2,1,1,0,1,0
+732,female,19,slsu,bsie ,ceng,1,2,2,5,4,2,0
+733,female,17,cstc,bstm,htm,1,1,1,1,4,0,0
+734,male,23,mseuf,bsce,ceng,1,3,1,1,4,2,0
+735,male,21,dll,bsit,ict,3,1,2,4,4,1,0
+736,male,21,dll,bsit,ict,3,3,1,5,4,0,0
+737,male,19,slsu,bsit-ft,ict,1,1,1,1,4,0,0
+738,female,19,slsu,bsba ,cba,2,3,1,1,4,0,0
+739,male,18,slsu,bshm,htm,1,1,1,1,4,1,0
+740,male,18,slsu_tayabas ,bshm,htm,1,2,1,1,4,1,0
+741,male,18,mseuf,bsit,ict,1,1,1,1,4,2,1
+742,male,20,sti,bsit,ict,1,2,1,1,4,1,0
+743,female,19,cstc,abpsy,cas,1,2,1,1,4,1,0
+744,female,20,slsu,bsba ,cba,2,1,1,1,0,0,0
+745,female,20,mseuf,bsn,ahs,3,3,2,4,4,3,1
+746,male,19,slsu,bsce,ceng,1,2,3,3,4,1,0
+747,female,18,slsu,bsed ,ced,1,2,1,1,4,1,0
+748,female,18,slsu,bscs,ict,1,1,3,2,4,2,0
+749,female,18,cstc,bspsy,cas,1,4,3,2,4,2,0
+750,female,19,slsu,bscpe ,ceng,1,2,1,1,4,3,0
+751,male,20,slsu,bscpe ,ceng,1,4,1,2,4,1,0
+752,male,22,btc,btvted,ced,2,1,1,1,4,2,1
+753,female,18,slsu,bspsy,cas,1,2,1,1,4,3,0
+754,male,19,mseuf,bscs ,ict,1,3,1,1,4,1,0
+755,female,17,mseuf,bsce,ceng,1,2,4,1,4,1,0
+756,male,19,slsu,bsee,ceng,1,2,2,1,4,2,0
+757,female,19,slsu,bsme,ceng,1,3,3,4,4,1,0
+758,female,19,sti,bstm,htm,1,3,1,1,4,3,0
+759,female,18,cefi,bsmet,ahs,1,2,2,2,4,2,0
+760,female,18,cstc,bstm,htm,1,3,2,1,4,2,0
+761,female,18,mseuf,bstm,htm,2,4,2,1,4,1,0
+762,female,19,slsu,bsbio,cas,1,6,4,3,4,1,0
+763,female,18,cefi,bsn,ahs,1,4,1,1,0,0,0
+764,female,19,cefi,bsn,ahs,1,4,1,5,4,0,0
+765,female,19,cefi,bsn,ahs,1,4,1,1,4,2,0
+766,male,18,cefi,bsn,ahs,1,5,2,5,4,1,0
+767,female,18,cefi,bsn,ahs,1,3,2,1,4,0,0
+768,female,18,cefi,bsn,ahs,1,3,1,5,4,0,0
+769,female,19,cefi,bsn,ahs,1,3,1,4,4,2,0
+770,female,19,slsu,bsn,ahs,1,3,1,1,4,1,0
+771,female,18,cefi,bsn,ahs,1,1,2,5,0,0,0
+772,female,19,cefi,bsn,ahs,1,5,2,5,4,2,0
+773,female,19,cefi,bsn,ahs,1,3,4,3,4,2,0
+774,female,19,cefi,bsn,ahs,1,4,1,5,4,1,0
+775,male,18,cefi,bsn,ahs,1,4,2,4,4,1,0
+776,female,19,mseuf_catanauan,bsba,cba,1,1,1,1,4,3,0
+777,female,20,slsu,bsed,ced,2,1,2,4,4,2,0
+778,male,18,pup_mulanay,bsce,ceng,1,1,1,5,4,1,0
+779,female,19,mseuf,bsa ,cba,1,2,4,1,4,0,0
+780,male,20,slsu,bsce,ceng,1,1,1,5,4,1,0
+781,female,21,dll,bsit ,ict,4,2,3,2,4,1,0
+782,male,20,slsu,bscrim,crim,1,1,1,5,4,0,0
+783,female,19,cefi,bspsy,cas,1,1,1,1,4,1,0
+784,female,19,cefi,bspsy,cas,1,1,1,5,4,1,0
+785,male,19,mseuf,abpolsci,cas,1,4,2,4,4,1,0
+786,female,18,shc,bspsy,cas,1,3,1,1,4,2,0
+787,female,19,slsu,bsed ,ced,1,2,3,5,4,1,0
+788,male,19,shc,bsn,ahs,1,4,2,1,4,1,0
+789,female,19,shc,bsn,ahs,1,4,1,1,4,1,0
+790,male,19,cefi,bsrt,ahs,1,4,1,2,4,0,0
+791,male,19,cefi,bsn,ahs,1,3,3,3,4,0,0
+792,male,18,slsu,bpa,cas,1,4,2,5,4,1,0
+793,female,18,cefi,bsn,ahs,1,3,1,1,4,1,0
+794,female,19,slsu,bshm,htm,1,1,1,5,4,1,0
+795,male,19,mseuf,bsn,ahs,1,6,1,1,4,1,0
+796,female,19,cefi,bsn,ahs,1,1,1,1,4,2,0
+797,male,18,cefi,bsn,ahs,1,2,3,2,4,1,0
+798,female,18,shc,bsa,cba,1,3,1,1,4,1,0
+799,female,18,cefi,bspsy ,cas,1,2,1,1,4,0,0
+800,female,18,mc,bsn,ahs,1,1,2,4,4,1,0
+801,female,18,mseuf,bsn,ahs,1,4,1,2,4,1,0
+802,male,19,pup_mulanay,bsce,ceng,1,4,1,4,4,1,0
+803,female,19,slsu,ict,ict,1,1,1,1,4,1,0
+804,female,18,slsu,bsf,cag,1,1,1,5,4,3,1
+805,female,23,slsu_tayabas,bsagri ,cag,4,1,1,5,0,1,0
+806,female,19,slsu,ict,ict,1,3,1,1,4,1,0
+807,male,18,mseuf,bsmet,ahs,1,1,1,1,4,1,0
+808,male,18,slsu,bsce,ceng,1,3,1,5,4,0,0
+809,male,19,mseuf,bsme ,ceng,1,2,1,1,0,1,0
+810,male,19,sti,bscs,ict,2,2,1,5,4,1,0
+811,female,18,slsu,btvted,ced,1,2,1,1,4,2,0
+812,male,19,mseuf,bsme,ceng,1,4,3,4,4,1,0
+813,female,20,cct,bscs,ict,1,4,1,1,4,1,0
+814,female,19,cefi,bsn,ahs,1,3,1,1,0,1,0
+815,female,20,mseuf,bsce,ceng,2,4,1,1,4,2,1
+816,female,19,mseuf,bsce,ceng,1,3,2,5,4,1,0
+817,male,18,mseuf,bsarch ,cafa,1,2,1,1,4,2,0
+818,female,18,mseuf,bsarch ,cafa,1,1,1,1,4,2,0
+819,male,20,mseuf,bsce,ceng,1,1,1,1,4,3,0
+820,female,20,igcfi,bsmt,cme,1,4,1,2,4,1,0
+821,male,20,slsu,bsee ,ceng,2,1,1,5,4,0,0
+822,male,18,cefi,bsn,ahs,1,5,1,1,4,1,0
+823,female,20,ltc,bspsy ,cas,1,2,1,2,4,2,0
+824,male,20,cefi,bsmet,ahs,2,2,2,1,4,2,0
+825,female,19,dll,bsit,ict,1,3,3,2,0,1,0
+826,male,19,igcfi,bsmt,cme,1,3,4,1,4,1,0
+827,female,18,cstc,bsba,cba,1,3,1,1,4,2,0
+828,female,20,slsu,bsa,cba,1,2,1,1,4,1,0
+829,male,19,shc,bsagri,cag,1,2,2,5,4,1,0
+830,female,18,shc,bsba,cba,1,3,1,1,4,1,0
+831,male,18,slsu,bses,cag,1,4,1,5,4,2,0
+832,male,20,qcrs,bsba,cba,3,7,1,1,0,0,0
+833,male,19,mseuf,bsce,ceng,1,6,2,1,4,1,0
+834,male,21,aces,bscrim ,crim,1,4,2,1,4,2,0
+835,female,19,slsu,bsed,ced,1,3,2,4,4,2,0
+836,female,22,slsu,bsed,ced,4,3,2,1,0,0,0
+837,female,18,mseuf,bsarch ,cafa,1,2,2,3,4,1,0
+838,female,19,slsu,bsce,ceng,1,1,1,5,4,2,0
+839,female,18,shc,bsit,ict,1,2,1,4,4,2,0
+840,female,19,mc,bsn,ahs,1,2,3,3,4,2,0
+841,male,22,cscb,dit,ict,1,3,1,2,0,0,0
+842,female,19,cefi,bspsy,cas,1,1,1,5,4,2,0
+843,female,18,cefi,bsrt,ahs,1,3,1,1,4,2,0
+844,female,18,cscb,dit,ict,1,1,1,1,4,3,0
+845,male,19,slsu,bsce,ceng,1,1,1,5,4,2,0
+846,male,18,mseuf,bshm,htm,1,1,1,2,4,0,1
+847,female,19,slsu,bsagri,cag,1,1,1,5,4,1,0
+848,female,18,mseuf,bsmet,ahs,1,1,1,1,4,3,0
+849,female,17,slsu,abpsy ,cas,1,1,1,3,4,3,0
+850,female,18,cefi,bsrt,ahs,1,5,3,5,4,2,1
+851,male,18,cefi,bsmet,ahs,1,3,1,5,4,2,0
+852,female,21,mseuf,bshm,htm,3,4,1,1,0,0,1
+853,female,18,slsu,bsba,cba,1,2,2,5,4,3,0
+854,female,19,mseuf,bshm,htm,1,2,1,1,4,1,0
+855,female,20,cefi,bsn,ahs,2,3,2,2,4,0,1
+856,male,17,shc,bsn,ahs,1,4,1,1,4,2,0
+857,female,18,mseuf_candelaria,bsn,ahs,1,5,1,1,4,3,1
+858,female,18,mseuf,bshm,htm,1,3,2,5,4,2,0
+859,female,19,mseuf,abpolsci,cas,1,4,4,5,4,3,1
+860,female,18,mseuf,bshm,htm,1,4,1,1,4,1,0
+861,female,18,slsu,bses,cag,1,1,1,1,4,0,0
+862,male,19,shc,bsn,ahs,1,6,1,1,4,2,1
+863,female,19,mseuf,bscrim,crim,1,6,1,1,0,0,0
+864,female,18,cefi,bsmet ,ahs,1,2,1,1,0,0,0
+865,female,19,mseuf_candelaria,bsn,ahs,1,3,1,3,4,0,0
+866,male,20,pup_mulanay,bpa,cas,3,2,2,1,4,1,1
+867,male,22,mc,bsn,ahs,4,1,1,1,4,2,0
+868,female,18,mseuf,bsarch ,cafa,1,3,1,1,4,1,0
+869,female,18,mseuf,bscpe,ceng,1,3,1,1,4,1,0
+870,female,19,mseuf,bsce,ceng,1,3,3,5,4,1,0
+871,male,20,pup_mulanay,bsed,ced,1,1,1,5,4,1,0
+872,female,20,mseuf_candelaria,bshm,htm,1,2,1,1,4,1,0
+873,female,19,cefi,bsn,ahs,1,1,1,5,4,1,0
+874,male,20,slsu,bsce,ceng,1,3,1,1,4,2,0
+875,male,21,cstc,bsit,ict,4,1,1,1,4,0,0
+876,female,19,pkm,bsed,ced,1,1,1,2,4,1,0
+877,female,19,mseuf,abpolsci,cas,1,3,1,1,4,1,0
+878,male,19,cefi,bsn,ahs,1,4,3,5,4,1,0
+879,female,20,slsu,bpa,cas,3,4,1,1,4,3,0
+880,female,21,mc,bsn,ahs,4,2,3,5,4,0,0
+881,female,22,mseuf,bsarch ,cafa,1,3,4,5,4,0,0
+882,female,23,mseuf,abcomm,cas,4,4,1,5,4,2,0
+883,male,19,mseuf, bspsy,cas,1,4,1,1,4,0,0
+884,male,19,dll,bsais,cba,2,2,1,1,4,0,0
+885,male,19,pkm,bscrim ,crim,1,2,4,4,4,1,0
+886,male,19,slsu,bsie,ceng,1,1,1,1,4,1,0
+887,male,17,shc,abpolsci,cas,1,4,1,5,4,3,0
+888,female,19,mseuf,bspsy ,cas,1,4,2,4,0,0,1
+889,female,21,slsu,bsie,ceng,3,2,1,5,4,2,0
+890,female,19,pkm,btvted,ced,1,1,1,1,4,2,1
+891,male,18,mseuf,bsce,ceng,1,4,1,1,4,0,0
+892,female,19,mseuf,bspsy ,cas,2,3,1,1,4,2,0
+893,female,20,mseuf,bspsy ,cas,1,2,1,1,4,1,0
+894,female,20,cefi,bsmet ,ahs,2,4,1,1,4,1,0
+895,male,18,sti,bscpe,ceng,1,4,1,1,4,0,0
+896,female,19,cefi,bsn,ahs,1,4,2,5,4,3,0
+897,female,18,shc,bsn,ahs,1,6,1,1,4,1,0
+898,male,19,mseuf,bspsy ,cas,1,2,3,3,4,2,0
+899,male,23,mseuf,bsarch,cafa,4,1,2,4,4,0,0
+900,male,18,mseuf,bsa,cba,1,4,1,1,4,1,0
+901,male,20,mseuf,bsed,ced,2,1,1,1,4,1,0
+902,female,19,slsu,bsie,ceng,1,4,2,4,4,1,0
+903,female,18,cefi,bsmet,ahs,1,4,2,5,4,2,0
+904,female,18,cefi,bsn,ahs,1,2,1,1,4,1,1
+905,female,19,cefi,bsmet,ahs,1,3,1,5,4,1,0
+906,female,19,sacli,bstm ,htm,1,3,1,1,4,1,0
+907,male,19,mseuf,bsemc,ict,1,6,2,4,4,1,0
+908,female,20,mseuf,bsemc,ict,1,3,1,2,4,3,1
+909,female,20,shc,bsn,ahs,3,3,1,1,4,1,0
+910,male,20,mseuf,bstm,htm,1,1,4,3,4,1,0
+911,male,18,cscb,bsentrep,cba,1,1,1,1,4,1,0
+912,male,18,mseuf,bsce,ceng,1,2,1,1,4,2,0
+913,female,19,cefi,bsn,ahs,1,4,1,1,4,2,0
+914,female,18,shc,bsn,ahs,1,3,1,1,4,3,0
+915,female,21,mseuf,bshm ,htm,3,4,3,2,4,3,0
+916,female,21,shc,bspsy,cas,3,3,1,1,4,3,0
+917,female,20,mc,bsn ,ahs,1,3,1,1,4,0,0
+918,male,18,slsu,bsee,ceng,1,4,1,5,4,1,0
+919,male,23,mseuf,bsce,ceng,4,3,1,1,4,3,0
+920,female,19,shc,bspsy ,cas,1,2,3,2,4,2,0
+921,male,19,cefi,bsn ,ahs,1,3,1,1,4,0,0
+922,male,17,mseuf,bsmet,ahs,1,1,1,1,0,0,0
+923,female,19,sacli,bsn ,ahs,2,2,1,1,4,1,0
+924,female,20,cefi,bsn ,ahs,1,3,2,1,4,3,0
+925,male,23,shc,bsn ,ahs,2,2,2,2,0,0,0
+926,male,19,sti,bsit,ict,1,3,1,1,4,1,0
+927,female,19,slsu,bsie,ceng,1,3,1,1,4,1,0
+928,female,20,mseuf,bsa,cba,2,2,1,1,4,0,0
+929,male,20,slsu,abpsy,cas,2,2,1,1,0,0,0
+930,male,18,slsu,bsie,ceng,1,3,2,5,4,2,0
+931,male,19,mseuf,bsce,ceng,1,2,1,1,4,2,1
+932,female,20,mseuf,bsn ,ahs,2,3,1,1,4,0,0
+933,male,18,cefi,bsrt,ahs,1,3,1,1,4,0,0
+934,male,23,mc,bsba,cba,3,1,1,1,4,1,0
+935,male,19,slsu,bscpe,ceng,1,1,2,1,4,0,0
+936,male,18,shc,bsit,ict,1,4,1,2,4,0,0
+937,female,19,slsu,bsn ,ahs,1,3,1,1,4,1,0
+938,male,18,slsu,bscpe,ceng,1,2,1,2,0,1,0
+939,male,19,slsu,bsn,ahs,1,1,1,5,4,2,0
+940,female,19,dll,bssw,cas,1,2,2,4,4,3,0
+941,male,19,slsu,bsme,ceng,1,3,1,1,4,2,0
+942,female,20,mseuf,bsn,ahs,2,3,1,5,4,0,0
+943,male,20,mseuf,bsn ,ahs,2,1,3,2,4,0,0
+944,male,18,slsu,bsn ,ahs,1,4,2,4,4,0,1
+945,female,18,mseuf,bsn ,ahs,1,3,4,5,4,0,0
+946,female,19,slsu,bsbio,cas,1,1,1,5,4,3,0
+947,male,19,mseuf,bsce,ceng,2,2,1,1,4,0,0
+948,female,19,cefi,bsn ,ahs,1,3,3,2,4,2,0
+949,female,19,slsu,bsba,cba,1,1,3,5,4,1,0
+950,male,18,mseuf,bsa,cba,1,2,1,5,0,1,0
+951,female,19,mseuf,bsn ,ahs,1,3,2,5,4,0,0
+952,female,20,sacli,bsn ,ahs,1,4,1,4,4,3,0
+953,male,19,mseuf,bsmt ,cme,1,2,1,1,0,0,0
+954,male,20,mc,bsa,cba,2,4,2,4,4,0,0
+955,male,20,mseuf,bsme,ceng,1,4,1,1,0,0,0
+956,male,19,igcfi,bsmt ,cme,1,2,1,1,4,0,0
+957,female,20,mseuf,bsn ,ahs,2,2,1,3,4,0,0
+958,female,18,slsu,bsa,cba,1,3,2,3,4,1,1
+959,female,18,slsu,bsa,cba,1,2,1,1,4,3,0
+960,male,18,pkm,bscrim,crim,1,1,3,2,4,2,0
+961,male,20,mseuf,bspsy ,cas,1,4,1,1,4,0,0
+962,male,18,shc,bsn ,ahs,1,5,1,1,4,1,0
+963,female,20,pup_mulanay,beed ,ced,1,1,3,5,4,0,0
+964,female,19,pup_mulanay,beed ,ced,1,1,4,5,4,2,0
+965,male,22,mc,bsed,ced,4,2,1,2,0,0,0
+966,female,18,pup_mulanay,beed ,ced,1,1,1,1,4,1,0
+967,male,20,mseuf,bsce,ceng,4,1,2,1,4,1,0
+968,male,21,mseuf,bsed,ced,4,3,3,4,4,1,0
+969,female,18,slsu,bses,cag,1,2,1,5,4,3,0
+970,male,20,igcfi,bsmt ,cme,1,1,3,2,4,2,1
+971,female,19,mseuf,bsba,cba,1,7,1,3,4,1,0
+972,male,19,pup_mulanay,bsba,cba,1,2,4,5,4,1,0
+973,male,19,shc,bsa,cba,1,3,4,2,4,3,1
+974,male,21,mc,bsba,cba,1,2,1,1,0,0,0
+975,female,18,pup_mulanay,bsoa,cba,1,1,1,1,4,1,0
+976,female,18,slsu,bses,cag,1,1,1,1,4,0,0
+977,female,20,mseuf,bfa,cafa,2,2,1,5,4,0,0
+978,female,19,shc,bsn ,ahs,1,3,1,1,4,2,0
+979,male,20,mc,bsma,cba,1,3,1,1,4,0,0
+980,female,18,cefi,bsn ,ahs,1,4,3,5,4,1,0
+981,male,21,mc,bsn ,ahs,4,4,3,2,4,1,0
+982,female,18,cefi,bspsy,cas,1,2,4,1,4,2,0
+983,male,19,mseuf,bsece,ceng,1,2,2,4,4,1,1
+984,female,22,cefi,bsmet ,ahs,4,4,2,1,4,1,0
+985,male,18,cefi,bsrt,ahs,1,2,1,1,4,1,0
+986,female,20,mseuf,bspsy,cas,1,1,1,4,4,2,0
+987,female,18,pkm,bsa,cba,1,2,1,1,4,1,0
+988,female,19,slsu,abpsy,cas,1,3,1,1,4,1,0
+989,female,22,mseuf,bsn,ahs,2,2,2,5,4,0,0
+990,male,20,mseuf,bsme,ceng,2,1,2,1,4,0,1
+991,female,19,slsu,bsed,ced,1,5,3,2,4,1,0
+992,female,19,slsu,bsrt,ahs,1,5,3,2,4,2,0
+993,female,21,mseuf,bscrim,crim,3,4,3,1,4,3,1
+994,male,19,mseuf,bsn,ahs,1,4,2,4,0,0,0
+995,male,19,mseuf,bscs,ict,1,4,1,5,4,2,0
+996,male,19,mseuf,bsee,ceng,1,6,1,5,4,0,0
+997,female,19,mseuf_candelaria,bsn,ahs,1,4,1,1,4,0,0
+998,female,19,pkm,bsed,ced,1,1,1,1,4,1,0
+999,female,19,mseuf,bsba ,cba,1,3,3,2,4,2,0
+1000,male,18,pkm,bscrim,crim,1,1,1,1,4,1,0
+1001,male,19,pkm,bscrim,crim,1,2,3,2,4,1,0
+1002,male,20,pkm,bsfsm,htm,1,1,1,1,4,2,0
+1003,female,18,pup_lopez,bspa,cas,1,3,1,2,4,2,0
+1004,female,19,pup_lopez,bsce,ceng,1,1,1,5,4,1,0
+1005,female,19,pkm,bsed,ced,1,1,1,1,4,1,0
+1006,female,20,mseuf,bsit,ict,1,2,2,1,4,2,0
+1007,female,20,slsu,bsn,ahs,2,1,3,5,4,1,0
+1008,female,19,slsu,bsie,ceng,1,3,2,1,4,2,0
+1009,female,18,mseuf,bsmet,ahs,1,3,1,1,4,1,1
+1010,male,20,mseuf,bsit,ict,3,3,1,1,4,0,0
+1011,female,21,shc,bsn,ahs,3,4,3,2,4,1,0
+1012,male,18,mseuf,bscs,ict,1,5,1,1,4,0,0
+1013,male,19,mseuf,bsa,cba,1,4,1,1,4,1,0
+1014,male,20,mseuf,bsn,ahs,2,3,1,5,4,2,0
+1015,female,22,mseuf,bsit,ict,3,3,1,1,4,2,0
+1016,male,19,slsu,bsit,ict,1,5,1,1,4,0,0
+1017,male,19,mseuf,bsce,ceng,1,2,1,1,0,1,0
+1018,male,19,slsu,bsee,ceng,1,3,1,1,4,0,0
+1019,female,18,cstc,bstm,htm,1,1,3,2,4,2,0
+1020,male,19,slsu,bsn,ahs,1,2,2,5,4,0,0
+1021,male,18,mseuf,bsmet,ahs,1,2,1,5,0,0,0
+1022,female,22,sti,bscm,htm,3,2,4,2,4,1,0
+1023,male,18,shc,bsph,ahs,1,6,1,5,4,3,0
+1024,male,18,slsu,bsce ,ceng,1,3,1,5,4,0,0
+1025,male,18,mseuf,bsme ,cme,1,5,2,5,0,0,0
+1026,male,19,mseuf,bsit,ict,2,3,1,5,4,2,0
+1027,female,22,mseuf,bssw,cas,3,3,3,2,4,1,0
+1028,male,18,mseuf,bsce,ceng,1,2,3,2,4,1,0
+1029,female,20,mc,bsn,ahs,3,2,2,4,4,0,0
+1030,male,19,mseuf,bsee,ceng,1,5,2,1,4,3,0
+1031,male,21,slsu,abcomm ,cas,3,2,1,5,4,1,0
+1032,male,19,pkm,bsais,cba,1,3,2,1,4,1,0
+1033,male,18,mseuf,bsce,ceng,1,3,1,1,4,1,0
+1034,male,19,shc,bsa,cba,1,2,2,5,0,0,0
+1035,male,19,aces,bscrim,crim,2,1,3,5,4,0,0
+1036,male,22,bwest,bshm ,htm,1,1,1,1,4,0,0
+1037,female,18,pkm,bsed,ced,1,2,4,3,4,1,0
+1038,female,21,mseuf,bstm,htm,3,4,1,5,4,1,0
+1039,male,21,mseuf,bscpe,ceng,2,2,1,5,0,0,0
+1040,female,21,mseuf,bsma,cba,3,2,1,2,4,3,0
+1041,male,18,cefi,bsrt,ahs,1,4,1,1,4,1,0
+1042,female,22,mseuf,bsa,cba,3,1,1,1,4,3,0
+1043,female,21,mseuf,bsn,ahs,3,1,1,2,4,0,0
+1044,female,21,mseuf,bsmet,ahs,3,1,1,1,4,1,0
+1045,male,21,mseuf,bsba,cba,3,2,3,2,4,1,0
+1046,female,20,mseuf,bsit,ict,2,3,1,1,4,0,0
+1047,female,19,pkm,bscrim ,crim,1,1,1,1,4,2,1
+1048,male,19,mseuf,bsn,ahs,1,6,1,1,4,0,0
+1049,female,20,mseuf,bsit,ict,2,2,1,5,4,0,0
+1050,male,19,mseuf,bsit,ict,1,2,1,1,4,1,0
+1051,female,22,cstc,bspsy,cas,3,2,1,1,4,1,0
+1052,female,21,mseuf,bsma,cba,3,3,1,1,4,0,0
+1053,female,20,mseuf,bsa,cba,3,3,2,5,4,1,0
+1054,female,20,shc,bspsy,cas,3,1,1,1,0,0,0
+1055,male,21,mseuf,bsit,ict,2,3,4,1,4,3,1
+1056,male,19,shc,bsn,ahs,1,4,1,5,4,1,0
+1057,male,21,mseuf,bsit,ict,3,3,3,2,4,0,0
+1058,male,20,cefi,bsba,cba,3,2,1,1,4,1,0
+1059,male,20,mseuf,bsarch ,cafa,3,1,1,1,4,0,0
+1060,female,19,slsu,bsce,ceng,1,3,2,5,4,2,0
+1061,male,19,mseuf,bscrim,crim,1,1,2,4,4,0,0
+1062,male,18,mseuf,bsit,ict,1,3,1,1,4,1,0
+1063,male,19,mseuf,bsit,ict,1,1,1,1,4,2,0
+1064,female,18,mseuf,bscrim,crim,1,4,3,2,4,1,0
+1065,male,18,mseuf,bsit,ict,1,2,2,1,4,1,0
+1066,male,19,mseuf,bsit,ict,1,4,2,4,4,1,0
+1067,male,18,pkm,bsais,cba,1,3,2,1,4,1,0
+1068,male,18,mseuf,bsmt,cme,1,1,2,4,0,0,0
+1069,male,19,mseuf,bscs,ict,1,4,1,5,4,2,0
+1070,female,18,sti,bstm,htm,1,2,2,4,4,1,0
+1071,female,19,mseuf,bspsy,cas,1,6,1,2,4,3,0
+1072,male,19,slsu,bsed,ced,1,1,1,5,4,0,0
+1073,male,24,mseuf,bscpe ,ceng,4,2,1,5,4,1,0
+1074,male,19,mseuf,bsmt ,cme,1,1,2,5,4,2,0
+1075,female,20,cefi,bsba,cba,3,2,1,1,4,0,0
+1076,female,18,mc,bsn,ahs,1,4,1,1,4,1,0
+1077,male,20,mseuf,bshm ,htm,2,4,1,5,4,1,0
+1078,male,19,slsu,bfa,cafa,1,1,2,5,4,0,0
+1079,female,19,sacli,bsn,ahs,1,4,1,1,0,0,0
+1080,male,20,mseuf,bsit,ict,2,2,3,2,4,1,0
+1081,male,19,mseuf,bsce,ceng,1,3,2,5,4,1,0
+1082,female,18,dll,dhrs,htm,1,2,4,2,0,2,0
+1083,female,21,slsu,bsece,ceng,5,1,3,2,4,0,0
+1084,female,25,dll,bsit,ict,4,1,3,2,4,0,0
+1085,female,17,dll,dhrs,htm,1,2,1,2,4,1,0
+1086,female,19,SFmc,bstm,htm,2,2,1,1,4,1,0
+1087,female,21,mc,bsn,ahs,3,3,3,2,4,0,0
+1088,female,20,mc,bsn,ahs,3,3,1,1,4,0,0
+1089,male,19,pkm,bsed,ced,1,3,1,1,4,2,0
+1090,female,19,slsu,bsit,ict,1,1,3,2,4,3,0
+1091,female,21,slsu,bsit,ict,3,2,1,1,4,0,0
+1092,male,19,pkm,bscrim,crim,1,1,1,1,4,0,0
+1093,male,19,mseuf,bsmt,cme,1,2,1,5,4,2,0
+1094,female,22,slsu,beed ,ced,4,3,1,1,0,0,0
+1095,female,19,mseuf,bspsy ,cas,1,2,3,2,4,2,1
+1096,female,23,dll,btvted,ced,4,1,2,1,4,1,0
+1097,female,19,mc,bsn,ahs,1,3,1,1,0,0,0
+1098,female,18,cefi,bspsy ,cas,1,4,2,4,4,0,1
+1099,female,21,dll,bspa ,cas,3,1,1,1,4,1,0
+1100,female,24,dll,btvted,ced,4,2,1,4,4,2,0
+1101,female,18,slsu_gumaca,bsba,cba,1,1,1,5,4,0,0
+1102,female,19,mseuf,bsba,cba,1,2,1,1,4,1,0
+1103,male,20,mseuf,bsie,ceng,1,5,1,5,4,0,0
+1104,male,21,mseuf,bsmt,cme,3,2,1,5,4,0,0
+1105,male,19,mseuf,bscs-sw,ict,1,3,2,5,4,1,0
+1106,male,21,mseuf_candelaria,bscs ,ict,3,4,2,2,4,0,0
+1107,male,24,mseuf,bsba,cba,3,1,1,1,4,1,0
+1108,male,25,mseuf,bsit,ict,4,2,2,2,4,3,0
+1109,male,20,mseuf,bsce,ceng,2,4,1,1,4,0,0
+1110,male,18,mseuf,bsba,cba,1,3,1,1,4,3,0
+1111,female,21,mseuf_candelaria,bsba,cba,3,4,2,1,4,1,0
+1112,male,23,mseuf,bsemc,ict,3,3,3,5,4,2,0
+1113,female,20,mseuf,bsce,ceng,2,6,2,4,4,1,0
+1114,female,22,mseuf_candelaria,beed ,ced,3,3,1,1,4,2,0
+1115,female,22,ama,bshm,htm,2,3,2,4,4,3,1
+1116,female,21,cefi,bsmet,ahs,3,3,1,1,4,1,0
+1117,male,22,slsu,bsie ,ceng,4,1,1,1,4,3,0
+1118,female,20,slsu,bses,cag,1,2,1,5,0,0,0
+1119,female,21,shc,bscs ,ict,2,3,1,1,4,3,0
+1120,male,20,mseuf,bsce ,ceng,2,3,1,1,4,2,0
+1121,male,21,mseuf,bscs,ict,2,3,1,1,4,1,0
+1122,female,19,sacli,dmd,ahs,1,2,1,1,4,2,0
+1123,male,22,mseuf,bsit,ict,3,3,2,2,4,1,0
+1124,male,22,mseuf,bsit,ict,2,4,3,4,4,0,0
+1125,female,20,dll,bspa,cas,3,1,2,1,4,1,0
+1126,female,21,cstc,bsed,ced,2,2,1,2,4,1,0
+1127,female,19,mseuf,bsce,ceng,2,1,1,1,4,1,0
+1128,male,21,cstc,bspa ,cas,2,2,1,1,0,0,0
+1129,male,23,mseuf,bsit,ict,4,4,1,1,0,0,0
+1130,female,22,mseuf,bscs,ict,4,1,1,1,4,1,0
+1131,male,21,mseuf,bsed,ced,3,2,2,4,4,3,0
+1132,male,21,mseuf,bscs,ict,3,3,1,1,4,2,0
+1133,male,21,mseuf,bsit,ict,2,2,2,5,4,2,0
+1134,male,21,dll,bsit,ict,4,3,1,1,4,0,0
+1135,male,19,mseuf,bsit,ict,2,2,1,1,4,3,0
+1136,female,18,dll,ab english,cas,1,2,1,1,4,1,0
+1137,male,22,mseuf,bsit,ict,4,4,1,1,4,1,0
+1138,female,19,mseuf,bsit,ict,2,3,2,4,4,1,0
+1139,male,22,slsu,bses,cag,4,4,1,1,4,2,0
+1140,female,20,mseuf,bscrim,crim,1,3,2,4,4,1,0
+1141,male,19,shc,bsn,ahs,1,4,1,5,0,0,0
+1142,female,22,mseuf,bsit,ict,3,3,1,1,4,2,0
+1143,male,19,cefi,bsrt,ahs,2,2,2,1,4,0,0
+1144,male,17,shc,bsit,ict,1,2,1,1,4,1,1
+1145,female,21,mseuf,bscpe ,ceng,3,3,1,5,4,2,0
+1146,male,20,mseuf,bsce,ceng,3,2,1,3,4,0,0
+1147,female,21,cefi,bsmet,ahs,3,1,1,1,4,3,0
+1148,male,21,mseuf,bsit,ict,2,3,3,2,4,1,0
+1149,male,18,cefi,bsn ,ahs,1,4,2,2,4,1,0
+1150,female,21,shc,bspsy,cas,3,3,1,1,0,0,0
+1151,male,19,mc,beed ,ced,1,2,1,1,4,0,0
+1152,male,20,slsu,bsme,ceng,1,1,1,5,0,0,0
+1153,female,21,slsu,bs math,cas,3,3,4,5,4,1,0
+1154,male,21,mseuf, bfa,cafa,3,4,1,5,4,1,0
+1155,female,18,cefi,bsrt,ahs,1,1,1,1,4,1,0
+1156,female,20,sti,bsit,ict,3,2,2,4,0,0,0
+1157,female,22,sti,bsit,ict,3,3,1,5,4,1,0
+1158,female,21,slsu,bsa,cba,3,4,1,5,4,0,0
+1159,male,19,mseuf,bscs,ict,1,2,1,1,4,1,0
+1160,male,21,mseuf,bstm,htm,3,4,2,2,4,1,0
+1161,male,20,mseuf,bsit,ict,3,2,2,1,4,2,0
+1162,female,23,mseuf,bscs,ict,2,3,3,4,0,1,0
+1163,male,22,shc,bsph,ahs,4,3,3,4,4,1,0
+1164,female,21,cefi,bsmet,ahs,3,3,1,2,4,1,0
+1165,male,23,mseuf,bscs,ict,3,4,2,1,4,1,0
+1166,female,21,sti,bsit,ict,3,2,1,1,4,2,0
+1167,female,21,mseuf,bsba,cba,4,2,1,1,4,2,0
+1168,male,22,slsu,bsee,ceng,3,3,1,5,4,1,0
+1169,female,21,dll,bspa ,cas,3,1,1,1,4,0,0
+1170,female,18,cefi,bsrt,ahs,1,1,1,1,4,1,0
+1171,male,19,mseuf,bscs,ict,1,6,1,1,4,1,0
+1172,male,18,mseuf,bsn,ahs,1,4,1,1,4,2,0
+1173,male,21,mseuf,bsit,ict,1,5,1,1,4,1,0
+1174,male,22,ama,bsit,ict,2,1,2,5,4,1,1
+1175,female,21,dll,bsais,cba,3,3,3,3,4,0,0
+1176,female,21,dll,bsit,ict,3,2,1,1,4,0,0
+1177,male,21,slsu,bspa ,cas,1,1,1,1,4,1,0
+1178,male,21,mseuf,bsce,ceng,3,2,1,1,4,1,0
+1179,male,20,mseuf,bsit,ict,2,3,1,1,4,0,0
+1180,male,21,dll,bsit,ict,3,1,1,1,4,1,0
+1181,female,22,slsu,bsbio,cas,4,1,1,1,4,2,0
+1182,male,20,mseuf,bscrim ,crim,2,2,1,1,4,1,0
+1183,female,19,cefi,bsrt,ahs,1,4,1,4,4,2,0
+1184,female,19,sti,bstm,htm,2,3,3,4,4,3,0
+1185,female,21,shc,bsn,ahs,3,2,2,4,4,0,0
+1186,male,22,mseuf,bsit,ict,3,2,1,5,4,1,0
+1187,female,21,sacli,bsn,ahs,3,2,1,3,4,3,1
+1188,male,20,mseuf,bsit,ict,3,3,1,5,0,1,0
+1189,female,20,shc,bsn,ahs,3,6,1,1,0,0,0
+1190,male,21,mseuf,bsit,ict,3,1,1,1,4,2,1
+1191,female,18,mseuf,bscs,ict,1,4,2,5,4,0,0
+1192,male,20,mseuf,bsit,ict,2,3,1,1,4,0,0
+1193,female,21,shc,bsn,ahs,4,4,1,1,4,0,0
+1194,male,19,shc,bsn,ahs,1,5,2,1,4,2,1
+1195,male,22,cefi,bsa,cba,3,4,2,5,4,2,0
+1196,female,20,shc,bsn,ahs,2,2,1,5,4,0,0
+1197,female,20,mseuf,abpolsci,cas,3,3,2,2,4,1,0
+1198,male,18,shc,bscs,ict,1,4,3,2,0,1,0
+1199,female,18,slsu,bsa,cba,1,3,1,1,0,0,0
+1200,male,20,mseuf,abpolsci,cas,1,3,3,5,4,1,0
+1201,male,21,shc, bspsy,cas,4,3,4,5,4,2,0
+1202,male,19,mseuf,bsce ,ceng,2,2,1,1,4,1,0
+1203,female,23,cefi,bsmet,ahs,4,4,1,1,4,2,1
+1204,male,21,mseuf,bsmt,cme,3,1,1,1,4,2,0
+1205,female,20,mc,bsba ,cba,3,2,1,1,0,1,0
+1206,male,21,cefi,bsn,ahs,3,3,1,5,4,1,0
+1207,male,16,cefi,bsn,ahs,1,1,1,1,4,0,1
+1208,female,18,shc, bsa,cba,2,3,2,1,4,2,0
+1209,female,22,mseuf,bscs,ict,2,2,2,2,4,2,0
+1210,male,21,sacli,bsba,cba,3,4,1,1,4,0,1
+1211,male,19,mseuf,bscs,ict,2,2,1,4,4,1,0
+1212,female,20,mseuf,bsn,ahs,2,1,2,1,4,0,0
+1213,male,20,mseuf,bscs,ict,2,4,1,1,4,2,0
+1214,female,18,cefi,bspsy,cas,1,3,1,5,4,2,0
+1215,male,21,slsu,bsit,ict,3,1,2,5,4,0,0
+1216,male,21,cefi,bsmet,ahs,3,5,3,2,4,1,0
+1217,female,21,sacli,bsba,cba,3,2,1,1,4,2,0
+1218,male,22,mseuf,bsit,ict,3,1,1,5,4,3,0
+1219,male,21,slsu,bsit-ct,ict,3,1,1,1,4,3,1
+1220,female,21,shc,bsph,ahs,2,6,1,5,4,1,0
+1221,male,21,mseuf,bsmt ,cme,3,1,1,5,4,0,0
+1222,male,21,mseuf,bscrim ,crim,3,1,1,1,4,3,1
+1223,male,22,sti,bsit,ict,2,3,1,1,0,0,0
+1224,male,19,sti,bsit,ict,2,2,1,1,4,1,0
+1225,male,31,sti,bsit,ict,2,7,1,1,4,1,0
+1226,male,19,mseuf,abcomm,cas,1,3,2,4,4,0,0
+1227,female,18,mseuf,abcomm,cas,1,3,2,5,4,1,0
+1228,female,20,cefi,bsmt,cme,1,2,1,1,4,1,0
+1229,female,19,mseuf,blis,cas,1,2,1,5,4,0,0
+1230,male,20,cefi,bsrt,ahs,1,4,4,5,4,0,0
+1231,female,19,igcfi,bshm,htm,1,3,1,5,4,1,0
+1232,male,20,sti,bsit,ict,2,4,2,5,4,2,0
+1233,male,19,mseuf,bsit ,ict,1,4,1,4,4,1,0
+1234,male,19,sti,bma,ict,2,2,3,2,4,1,0
+1235,male,22,mseuf,bsarch ,cafa,3,3,1,1,4,1,0
+1236,male,20,slsu,bshm ,htm,2,3,2,5,4,0,0
+1237,male,18,mseuf,bsme,ceng,1,4,1,1,4,2,0
+1238,female,20,dll,bsentrep,cba,3,2,1,1,4,2,0
+1239,male,20,mseuf,bscs,ict,2,1,1,1,4,1,0
+1240,female,19,slsu,abpsy,cas,1,2,1,1,4,2,0
+1241,male,21,slsu_tayabas,bsa,cba,2,1,1,1,0,0,0
+1242,female,20,sti,bstm,htm,2,4,3,5,4,2,0
+1243,female,19,mseuf,bsn,ahs,2,3,2,5,4,2,0
+1244,female,20,dll,bsit,ict,3,1,2,4,4,1,0
+1245,female,20,mseuf,bsn,ahs,2,4,1,1,0,0,0
+1246,male,20,cefi,bsn,ahs,1,4,2,4,4,1,0
+1247,male,19,mseuf,bsed,ced,2,6,1,2,4,1,0
+1248,female,19,cefi,bsn,ahs,1,3,2,1,4,1,0
+1249,male,23,mseuf,bscpe,ceng,4,1,3,2,4,2,0
+1250,female,19,shc,bsn,ahs,1,3,1,5,4,1,0
+1251,male,20,slsu,btvted,ced,2,5,2,5,4,2,0
+1252,female,18,dll,btvted,ced,1,3,2,4,0,0,0
+1253,female,19,mseuf,bsce,ceng,2,4,1,1,4,1,0
+1254,female,18,mseuf,bsn,ahs,1,3,3,5,4,1,0
+1255,male,20,mc,bsba,cba,2,1,3,2,4,1,0
+1256,female,19,dll,bsentrep,cba,1,4,1,1,4,1,0
+1257,female,21,mseuf,bspsy,cas,4,3,2,5,4,0,0
+1258,female,18,mseuf,bsn,ahs,1,3,2,5,4,1,0
+1259,male,19,cefi,bsrt,ahs,1,4,1,1,4,2,0
+1260,female,19,cefi,bsn,ahs,1,3,1,1,4,0,0
+1261,male,20,mseuf,bsit,ict,2,3,2,5,4,2,0
+1262,male,19,dll,bsentrep,cba,1,1,2,4,4,0,0
+1263,male,21,mseuf,bsba,cba,2,3,2,1,4,1,0
+1264,male,20,mseuf,bsn,ahs,2,1,1,5,4,0,0
+1265,male,20,sti,bsit,ict,2,4,1,1,4,0,0
+1266,male,21,slsu,abpa,cas,3,1,1,5,4,2,0
+1267,female,21,slsu,abhistory,cas,3,1,1,5,0,0,0
+1268,male,18,mseuf,bshm,htm,1,3,1,5,4,0,0
+1269,female,18,mseuf,bshm,htm,1,2,3,5,4,2,0
+1270,female,21,cstc,dhrs,htm,2,1,1,5,4,1,0
+1271,male,22,mseuf,bsece,ceng,4,4,1,1,4,0,0
+1272,female,20,mc,bsn,ahs,2,3,3,4,4,0,0
+1273,male,18,dll,bsit,ict,1,3,1,2,4,0,0
+1274,female,21,sti,bsit,ict,2,4,2,1,4,3,1
+1275,female,19,sti,bsit,ict,2,3,1,1,0,0,0
+1276,female,19,cefi,bsn,ahs,1,3,4,5,4,0,0
+1277,female,20,mseuf,bsed,ced,3,1,4,2,4,2,0
+1278,female,21,mseuf,bsed,ced,3,3,1,1,4,2,0
+1279,female,21,mseuf,bsed,ced,3,2,1,1,4,2,0
+1280,female,22,slsu,bsn,ahs,4,3,1,1,4,0,0
+1281,male,20,mseuf,bsed,ced,3,4,1,2,4,2,0
+1282,male,21,mseuf,bsed,ced,3,3,1,1,4,3,1
+1283,female,21,dll,bsit,ict,3,3,3,3,4,1,0
+1284,male,20,mseuf,bsed,ced,3,3,1,1,4,0,0
+1285,male,19,mseuf,bstm,htm,1,4,1,1,4,0,0
+1286,male,21,dll,bssw ,cas,2,1,3,3,4,1,0
+1287,female,19,shc,bsph,ahs,2,5,1,1,4,1,0
+1288,male,22,mseuf,bsit,ict,4,1,1,1,4,1,1
+1289,female,24,mseuf,bspsy,cas,3,1,1,1,4,2,1
+1290,male,22,qcci_atimonan,bsed,ced,4,1,1,2,4,1,0
+1291,female,21,mseuf,bsed,ced,3,2,1,1,4,2,0
+1292,female,21,qcci_atimonan,bsba,cba,3,1,1,1,4,3,0
+1293,male,19,mseuf,bsemc,ict,1,4,2,4,4,0,0
+1294,male,22,mseuf,bsit,ict,2,4,4,4,4,1,0
+1295,male,20,mseuf,bsmt,cme,2,3,1,1,4,0,0
+1296,female,20,mseuf,bsit,ict,3,3,1,1,4,0,0
+1297,female,17,mseuf,bscrim,crim,1,2,3,2,4,2,0
+1298,male,19,mseuf,bshm ,htm,1,2,4,2,4,1,0
+1299,female,19,cefi,bsrt,ahs,1,4,1,1,4,1,0
+1300,male,18,dll,bsa ,cba,1,2,2,4,4,1,0
+1301,female,17,mseuf,bscrim,crim,1,2,1,1,4,1,0
+1302,male,22,slsu,bsba,cba,4,2,1,1,4,0,0
+1303,male,20,mseuf,bsit ,ict,2,3,1,1,4,0,0
+1304,female,21,slsu,bapa,cas,3,3,1,1,4,1,0
+1305,male,19,mseuf,bscs,ict,1,2,1,1,4,2,0
+1306,male,19,mseuf,bsemc,ict,1,3,1,2,4,1,0
+1307,female,20,slsu,bsbio,cas,1,3,3,2,4,1,0
+1308,female,20,mseuf,bsce,ceng,3,1,1,1,4,2,0
+1309,male,20,pup_lopez,beed ,ced,1,3,1,1,4,1,0
+1310,female,19,mseuf,abcomm,cas,2,2,1,5,4,1,1
+1311,male,19,mseuf,bscpe ,ceng,1,4,1,2,4,0,0
+1312,female,20,slsu_catanauan,bsit,ict,1,3,2,4,0,0,0
+1313,male,22,slsu,bsed,ced,4,2,2,4,4,1,0
+1314,male,21,mseuf,bsge ,ceng,3,2,1,5,4,1,0
+1315,female,17,mseuf,bscrim,crim,1,3,1,1,4,2,0
+1316,female,21,slsu,btled,ced,2,2,3,4,4,0,0
+1317,female,20,mseuf_catanauan,beed,ced,1,1,1,1,4,3,0
+1318,male,21,shc,bscs,ict,2,3,2,1,4,0,0
+1319,female,20,mseuf,bsba,cba,3,3,1,1,4,0,0
+1320,male,18,dll,bsit,ict,1,1,3,2,4,1,0
+1321,male,21,mseuf,bsba,cba,2,1,3,5,0,0,0
+1322,male,22,nqci ,bsed,ced,3,2,1,1,4,1,0
+1323,female,20,pkm,btva,cag,2,1,1,1,4,2,0
+1324,male,18,slsu,bscpe,ceng,1,2,1,1,4,0,0
+1325,female,21,mseuf,bsba,cba,3,2,1,1,4,0,0
+1326,male,21,cefi,bsn,ahs,3,3,2,4,4,2,0
+1327,male,20,mseuf,bsit,ict,2,3,1,1,4,0,0
+1328,male,19,mseuf,bscs,ict,2,3,1,1,4,1,0
+1329,male,24,mseuf,bsce,ceng,4,2,1,1,4,1,0
+1330,female,21,shc,bsph,ahs,3,4,1,2,0,0,0
+1331,male,20,mseuf,bscpe,ceng,3,3,1,1,4,1,0
+1332,male,20,slsu,abpsy ,cas,2,3,1,1,4,1,0
+1333,female,22,shc,bspsy,cas,3,2,2,1,4,0,0
+1334,male,20,cefi,bsn,ahs,2,4,1,3,0,0,0
+1335,female,23,mseuf,bsemc,ict,2,1,2,1,4,2,1
+1336,male,20,dll,bssw ,cas,1,1,1,1,4,3,0
+1337,male,22,mseuf,bsarch ,cafa,4,2,4,3,4,1,0
+1338,male,17,slsu,btvted,ced,1,1,3,2,0,0,0
+1339,male,19,mseuf,bsie,ceng,2,3,1,1,4,1,0
+1340,female,21,mc,bsa,cba,3,2,4,2,4,2,0
+1341,female,21,cefi,bsed,ced,3,4,1,4,4,0,0
+1342,male,22,mseuf,bscrim ,crim,4,2,2,2,4,0,0
+1343,female,21,mseuf,abcomm ,cas,3,4,1,5,4,2,0
+1344,male,19,mseuf,bscs,ict,1,3,1,1,4,1,0
+1345,male,19,slsu,bsba,cba,1,2,4,5,4,1,0
+1346,female,19,slsu,btled,ced,2,1,3,5,4,2,0
+1347,male,21,pup_lopez,bsee,ceng,3,3,1,5,4,0,0
+1348,female,21,cstc,bspsy,cas,3,3,2,5,4,1,1
+1349,female,20,pup_lopez,bscrim ,crim,3,1,1,5,4,1,0
+1350,female,22,cstc,bsed,ced,3,3,1,5,4,3,0
+1351,female,21,mseuf,bsce ,ceng,3,2,1,5,4,0,0
+1352,female,19,mseuf,bsemc,ict,1,4,1,5,4,1,0
+1353,male,20,mseuf,bsba,cba,1,3,1,2,4,2,0
+1354,male,23,mc,bsa,cba,3,1,1,4,0,0,0
+1355,female,20,mseuf,bsit,ict,3,2,1,1,4,0,1
+1356,female,21,mseuf,beed,ced,3,4,1,1,4,2,0
+1357,female,21,mc,bsa,cba,3,4,1,2,4,1,0
+1358,female,17,mseuf,bscrim ,crim,1,3,2,1,4,2,0
+1359,female,20,dll,btvted,ced,3,2,1,2,4,1,0
+1360,female,22,mseuf,bfa,cafa,3,3,1,1,4,1,0
+1361,female,20,dll,bspa ,cas,3,3,1,1,4,1,0
+1362,male,19,mseuf,bscs,ict,1,2,2,1,4,0,0
+1363,female,23,mseuf,bspsy ,cas,4,6,2,1,4,1,1
+1364,male,20,pup_lopez,bsit,ict,3,1,2,1,4,1,0
+1365,female,21,shc,bsma,cba,3,1,3,5,4,2,0
+1366,female,21,mseuf,bsba,cba,3,4,1,1,4,0,0
+1367,female,22,dll,bspa,cas,3,3,3,2,4,1,0
+1368,female,19,dll,bsa ,cba,1,5,1,1,4,3,0
+1369,male,19,sti,bscs,ict,2,2,2,1,4,2,0
+1370,female,20,mseuf,aben,cas,3,3,1,1,4,2,0
+1371,female,21,sacli,bshm,htm,3,1,1,5,4,3,0
+1372,male,22,mseuf,bstm,htm,3,3,1,4,4,3,1
+1373,male,22,cefi,bscrim ,crim,4,2,1,2,4,1,0
+1374,male,20,sti,bscs,ict,2,4,1,5,4,1,0
+1375,male,22,shc,bsn,ahs,3,4,2,4,4,0,0
+1376,female,19,StAugustine,bsn,ahs,1,3,1,1,4,2,1
+1377,female,21,slsu,bsit,ict,3,3,1,1,4,0,0
+1378,female,19,sti,bsba,cba,1,1,1,3,4,1,0
+1379,female,21,dll,bspa,cas,3,2,1,1,4,1,0
+1380,female,22,pup_unisan,bsit,ict,4,1,4,1,4,1,0
+1381,female,20,dll,btvted,ced,1,2,1,1,4,2,0
+1382,female,22,mseuf,bsn,ahs,2,4,1,1,4,2,0
+1383,male,21,slsu,bsme ,ceng,3,2,1,5,4,1,0
+1384,male,21,mseuf,bstm,htm,1,2,1,1,4,1,0
+1385,female,21,slsu,bshm,htm,3,1,1,5,4,0,0
+1386,male,22,slsu,bsba ,cba,2,3,2,5,4,1,0
+1387,male,20,mseuf,bped,ced,2,2,1,1,4,0,0
+1388,male,18,mseuf,bsce ,ceng,1,2,1,1,4,0,0
+1389,female,23,pup_unisan,dit,ict,3,2,3,4,4,1,0
+1390,female,20,shc,bsph,ahs,2,4,1,5,4,2,0
+1391,male,20,sti,bscm,htm,3,2,3,5,4,1,0
+1392,male,21,mseuf_candelaria,bscpe,ceng,3,4,1,1,4,1,0
+1393,female,21,slsu,bshm,htm,3,1,3,5,4,2,0
+1394,male,20,pup_unisan,domt,cba,3,1,2,4,4,1,1
+1395,male,21,slsu,bpa ,cas,3,3,2,5,4,2,0
+1396,female,22,pup_unisan,dit ,ict,3,1,1,1,4,1,0
+1397,male,22,mseuf,bsit,ict,3,1,1,1,4,1,0
+1398,female,20,mseuf,bscrim,crim,2,3,1,4,0,0,0
+1399,female,21,sti,bscm,htm,3,2,1,1,4,2,0
+1400,female,19,pup_unisan,dit,ict,2,1,1,4,4,1,0
+1401,female,20,dll,bsais,cba,3,3,1,5,4,0,0
+1402,female,19,dll,bspa,cas,1,1,4,2,4,1,0
+1403,female,21,dll,bspa ,cas,2,2,1,5,4,2,0
+1404,female,20,sti,bscs,ict,2,2,1,1,4,2,0
+1405,male,18,mseuf,abcomm,cas,1,3,1,1,4,2,0
+1406,male,21,mseuf, bcaed,ced,3,2,1,4,4,2,0
+1407,male,24,igcfi,bsmt,cme,3,3,1,5,4,0,0
+1408,male,20,mseuf,bsit,ict,2,3,1,5,0,0,0
+1409,male,23,mseuf,bsce ,ceng,4,2,2,1,4,0,0
+1410,female,18,mseuf,bstm,htm,1,3,1,4,4,2,0
+1411,male,18,mseuf,bsit,ict,1,4,3,2,4,1,0
+1412,male,21,slsu,bsie,ceng,3,1,1,1,4,1,0
+1413,female,20,mseuf,bsit ,ict,2,4,1,4,4,2,0
+1414,female,20,slsu,bsagri,cag,2,1,1,5,4,1,0
+1415,female,22,slsu,bsa ,cba,4,1,1,5,4,1,0
+1416,female,23,mseuf,bsemc,ict,2,3,1,1,4,3,0
+1417,female,22,pup_unisan,dit ,ict,3,1,3,2,4,2,0
+1418,male,22,mseuf,bsit,ict,3,4,1,1,4,2,1
+1419,male,18,ABE,bsrem,cba,1,4,1,5,4,1,0
+1420,male,21,mseuf,bsmt,cme,3,3,3,3,4,0,0
+1421,female,19,sti,bsit,ict,1,6,3,2,4,1,1
+1422,female,19,dll,aben,cas,1,2,5,5,4,0,0
+1423,male,21,slsu,bsba,cba,3,2,1,1,4,0,0
+1424,male,21,mseuf,bsit,ict,3,3,1,1,4,0,0
+1425,male,22,mseuf,bsit,ict,3,2,3,3,4,3,0
+1426,female,22,mseuf,abcomm,cas,3,1,1,1,4,3,1
+1427,female,21,cefi,bsmet ,ahs,3,3,1,5,4,1,1
+1428,female,19,pup_unisan,beed,ced,1,2,2,1,4,1,0
+1429,female,19,pup_unisan,bsce,ceng,1,3,1,5,4,2,0
+1430,female,18,slsu,bsn,ahs,1,3,1,5,4,1,0
+1431,female,21,pup_unisan,dit ,ict,3,1,1,1,4,0,0
+1432,female,21,shc,bsph,ahs,3,4,1,1,0,0,0
+1433,female,19,mseuf,bsarch ,cafa,1,3,1,5,4,1,0
+1434,male,19,slsu,aben,ced,1,2,1,1,4,0,0
+1435,female,18,pup_unisan,beed ,ced,1,1,1,1,4,3,0
+1436,male,21,cefi,bsmet ,ahs,3,3,1,1,4,1,0
+1437,female,18,slsu,bsagri ,cag,1,2,2,5,4,1,0
+1438,female,19,pup_unisan,beed,ced,1,1,1,5,4,3,0
+1439,female,19,cefi,bsa,cba,1,3,1,5,4,3,0
+1440,female,18,pup_unisan,beed,ced,1,2,1,1,4,1,0
+1441,female,19,mseuf,bsee,ceng,1,3,1,5,4,3,1
+1442,male,21,mseuf,bsed,ced,3,3,1,1,4,2,0
+1443,female,30,pup_unisan,beed,ced,1,2,1,2,4,1,0
+1444,female,19,sti,bstm,htm,1,3,2,5,4,2,0
+1445,female,22,mseuf,bfa,cafa,4,4,1,1,4,2,0
+1446,female,20,mseuf,abcomm,cas,1,2,2,4,4,3,0
+1447,female,20,slsu,bsece,ceng,3,2,1,1,4,1,0
+1448,male,20,sti,bma,ict,3,4,1,1,4,3,0
+1449,female,21,mseuf,bstm,htm,3,2,1,1,4,3,0
+1450,female,21,dll,bssw ,cas,3,2,2,1,4,1,0
+1451,female,20,slsu,abpsy,cas,2,3,3,5,4,0,0
+1452,female,20,slsu,bshm ,htm,3,3,3,5,4,1,0
+1453,male,21,slsu,bshm ,htm,2,2,4,5,4,2,0
+1454,female,19,pup_unisan,beed,ced,1,2,1,1,4,1,0
+1455,female,23,sti,bstm,htm,3,4,1,1,4,3,0
+1456,female,19,pup_unisan,beed,ced,1,2,1,3,4,2,0
+1457,female,19,slsu,bpa,cas,2,3,2,5,4,2,0
+1458,female,21,pup_unisan,bsentrep,cba,3,1,1,1,4,3,0
+1459,female,19,pup_unisan,beed,ced,1,1,1,1,4,0,0
+1460,female,19,pup_unisan,beed,ced,1,1,2,1,4,2,0
+1461,female,19,mseuf,bscs ,ict,2,5,1,1,4,2,0
+1462,male,21,mseuf,bsece,ceng,3,3,1,1,4,1,0
+1463,female,21,pup_unisan,dit,ict,3,3,1,1,4,0,0
+1464,female,21,pup_unisan,dit,ict,3,2,1,1,4,3,0
+1465,male,21,cefi,bsmet ,ahs,3,3,3,2,0,0,0
+1466,male,23,pup_unisan,dit,ict,3,1,4,1,0,0,0
+1467,female,23,mseuf,bscs,ict,4,6,2,4,4,1,0
+1468,male,20,sti,bsit,ict,3,1,1,1,4,0,0
+1469,male,21,sti,bsit,ict,3,1,1,1,0,0,0
+1470,male,21,igcfi,bsmt,cme,3,2,2,3,0,0,0
+1471,female,20,sti,bsit,ict,3,2,1,5,4,1,0
+1472,male,19,dll,dhrs ,htm,1,2,1,1,4,0,0
+1473,male,22,dll,bsais,cba,4,1,1,2,4,0,0
+1474,female,20,mseuf,bsn,ahs,2,4,1,5,4,2,0
+1475,female,21,pup_unisan,dit ,ict,3,1,1,1,4,0,0
+1476,male,21,slsu,bsagri,cag,3,2,2,1,4,2,0
+1477,female,20,mseuf,bspsy ,cas,3,3,2,4,4,3,0
+1478,male,23,igcfi,bshm,htm,2,2,1,4,4,1,0
+1479,female,18,dll,dhrs ,ict,1,1,3,2,4,2,0
+1480,male,23,sti,bma,ict,3,3,1,4,4,2,1
+1481,female,23,sti,bstm,htm,3,4,3,5,4,1,0
+1482,male,20,slsu,btvted,ced,2,1,3,3,4,1,0
+1483,male,27,sti,bsit,ict,3,3,2,4,4,2,0
+1484,female,21,dll,bsais,cba,1,2,1,1,4,2,0
+1485,female,20,sti,bstm,htm,2,2,1,1,4,1,0
+1486,male,20,cstc,bsed,ced,2,1,3,2,4,1,0
+1487,male,23,slsu,bsba ,cba,3,4,1,5,4,2,0
+1488,male,21,slsu,bsit,ict,3,2,1,5,4,1,0
+1489,female,22,slsu,bspa,cas,3,1,2,1,4,2,0
+1490,female,21,mseuf,bsmet ,ahs,3,2,1,2,4,1,0
+1491,male,20,slsu_lucena,btvted,ced,2,2,4,2,4,2,0
+1492,female,19,mseuf,bsn,ahs,2,3,1,5,4,1,0
+1493,male,20,mseuf,bsit,ict,1,1,5,5,4,2,1
+1494,male,19,qcrs,bsa ,cba,1,4,1,1,4,0,0
+1495,male,21,mseuf,bsmt,cme,3,3,1,2,4,0,0
+1496,female,18,qcrs,bsba,cba,1,4,1,3,4,3,0
+1497,female,18,sacli,bsn,ahs,1,3,3,2,4,1,0
+1498,male,22,sti,bsit,ict,3,4,1,1,4,0,0
+1499,male,18,mseuf,bscpe,ceng,1,2,3,2,4,2,0
+1500,female,19,mseuf,bsn,ahs,1,3,1,5,4,0,0
+1501,male,21,mseuf,bscs,ict,2,3,3,2,0,1,0
+1502,male,21,mseuf,bsme ,ceng,3,2,3,4,4,0,0
+1503,female,20,mseuf,bshm,htm,1,3,1,1,4,1,0
+1504,female,18,shc,abcomm,cas,1,1,1,1,4,0,0
+1505,female,19,sti,bsit ,ict,2,3,1,5,4,1,0
+1506,female,21,CVE,bsba,cba,3,2,1,1,4,0,0
+1507,female,20,slsu_lucena,bsee,ceng,2,2,1,5,4,1,0
+1508,male,19,cefi,bsn,ahs,1,2,1,1,4,1,0
+1509,female,19,dll,bspa,cas,1,1,1,1,0,0,0
+1510,male,21,aces,bscrim,crim,1,2,2,1,4,2,0
+1511,female,20,sti,bsit ,ict,2,2,1,4,4,1,0
+1512,female,18,cefi,bsn,ahs,1,4,2,5,4,2,0
+1513,female,22,mseuf,bscrim,crim,4,1,2,5,0,0,0
+1514,male,19,cstc,bshm,htm,1,2,1,1,4,1,0
+1515,female,19,slsu,bsm,ahs,1,2,1,5,4,1,0
+1516,female,19,qcrs,bsa ,cba,1,1,1,1,4,1,0
+1518,male,21,mseuf,bsmt,cme,2,2,1,1,0,0,0
+1519,female,19,cefi,bsn,ahs,1,4,1,1,4,0,0
+1520,male,20,mseuf,bsmt,cme,2,5,1,2,4,3,0
+1521,male,20,mseuf,bsmet ,ahs,2,1,3,2,4,3,0
+1522,male,20,mseuf,bsmet ,ahs,2,3,1,1,4,0,0
+1523,male,19,pup_lopez,bsit,ict,2,2,2,4,4,0,0
+1524,male,19,mseuf,bsit,ict,1,3,1,1,4,1,0
+1525,male,21,mseuf,bsme ,ceng,4,1,1,1,4,1,0
+1526,male,18,slsu,bs midwifery,ahs,1,3,2,1,4,0,0
+1527,female,18,mseuf,bsit,ict,1,5,1,1,4,1,0
+1528,female,19,qcrs,bsa,cba,1,2,3,2,4,1,0
+1529,male,20,shc,bsph,ahs,3,4,1,1,4,1,0
+1530,male,18,mseuf,bsmt,cme,1,5,2,4,4,1,0
+1531,male,24,mseuf,bsmt,cme,2,1,1,5,4,1,0
+1532,female,22,mseuf,bscs,ict,3,3,4,1,4,1,0
+1533,male,19,dll,bsentrep,cba,1,2,1,3,4,1,0
+1534,male,18,mseuf,abpolsci,cas,1,4,1,1,4,3,0
+1535,female,19,mc,bsn,ahs,1,2,1,1,4,1,0
+1536,female,21,sacli,bstm,htm,3,4,3,5,4,1,0
+1537,female,19,mseuf,abcomm,cas,1,3,1,1,4,1,0
+1538,female,22,sti,bsit,ict,3,1,2,4,4,2,0
+1539,male,21,cstc,bspsy,cas,3,2,1,1,4,1,0
+1540,female,19,mseuf,bsie,ceng,1,3,4,5,4,1,0
+1541,male,24,cstc,bstm,htm,2,2,4,5,4,1,0
+1542,female,20,cstc,bspsy,cas,3,2,1,4,4,3,0
+1543,female,20,slsu,bsa,cba,2,2,2,5,4,2,1
+1544,male,19,mseuf,abpolsci,cas,1,4,1,1,4,1,0
+1545,female,21,mseuf,bscrim,crim,3,4,2,1,4,0,0
+1546,female,18,slsu,bsm,ahs,1,3,1,5,4,1,0
+1547,female,22,mseuf,abpolsci,cas,1,1,1,5,4,1,0
+1548,female,18,slsu,bsm,ahs,1,4,2,5,4,1,0
+1549,male,20,sti,bsit ,ict,3,4,2,4,4,1,0
+1550,female,18,mseuf,abcomm,cas,1,4,1,1,4,1,0
+1551,female,19,slsu,abhistory,cas,1,2,1,5,4,1,0
+1552,female,19,slsu,bcaed,ced,1,3,1,1,4,1,0
+1553,female,18,cefi,bsn,ahs,1,1,1,1,4,1,0
+1554,female,20,slsu,bsa,ahs,2,1,1,5,4,3,0
+1555,female,20,slsu,bsba,cba,1,1,2,5,4,2,0
+1556,male,19,qcrs,bsa,ahs,1,2,1,3,4,1,0
+1557,male,20,mseuf,bsa,ahs,3,3,4,3,4,1,0
+1558,male,19,shc,bscs,ict,1,4,1,1,4,1,0
+1559,female,21,slsu,bpa,cas,4,2,2,1,4,0,0
+1560,male,19,cefi,bsn,ahs,1,3,1,5,4,1,0
+1561,female,21,cefi,bsmet ,ahs,3,3,1,1,0,0,0
+1562,female,19,mseuf,bsit,ict,1,3,3,2,4,2,0
+1563,female,20,mseuf,bsn,ahs,2,1,2,1,4,1,0
+1564,female,21,mseuf,bsa,ahs,3,3,1,1,4,1,0
+1565,female,18,mc,bsn,ahs,1,2,1,1,4,2,0
+1566,male,20,mseuf,bscs,ict,3,6,2,5,4,2,0
+1567,male,21,mseuf,bsce,ceng,2,3,1,1,4,2,0
+1568,female,20,mseuf,bsce,ceng,3,4,2,4,4,2,0
+1569,female,22,shc,bsn,ahs,3,4,1,1,4,1,1
+1570,male,20,mseuf,bscs,ict,1,2,1,1,4,2,0
+1571,female,19,shc,bsph,ahs,1,2,2,4,4,0,0
+1572,female,21,slsu,bsba,cba,3,2,1,1,4,1,0
+1573,female,18,shc,bsn,ahs,1,4,1,2,4,1,0
+1574,male,19,mseuf,bscs,ict,1,3,1,5,4,1,0
+1575,female,19,cefi,bsrt,ahs,1,3,1,2,4,1,1
+1576,female,20,shc,bsn,ahs,3,4,2,5,4,1,0
+1577,male,20,mseuf,bsce,ceng,3,1,1,1,4,1,0
+1578,female,19,cefi,bsmet ,ahs,1,2,1,2,4,1,0
+1579,male,19,shc,bsn,ahs,1,4,1,2,4,1,0
+1580,female,19,cefi,bsn,ahs,1,1,3,2,4,0,0
+1581,female,23,mseuf,bscs,ict,3,4,1,1,4,1,0
+1582,female,21,pup_lopez,bsagri,cag,4,3,3,5,4,1,0
+1583,male,21,cstc,bspsy,cas,3,2,3,5,0,0,0
+1584,female,20,cstc,bspsy,cas,3,3,1,2,4,1,0
+1585,female,21,mseuf,bsce,ceng,4,3,1,1,4,1,0
+1586,female,19,cefi,bsn,ahs,1,4,1,1,4,3,0
+1587,female,18,cefi,bsrt,ahs,1,2,2,1,0,1,0
+1588,female,21,sti,bstm,htm,3,1,1,1,4,1,0

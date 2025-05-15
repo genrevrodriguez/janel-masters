@@ -1,108 +1,110 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from data_utils import useLoadData
-from model_utils import useTrainAndSaveBestModel, useLoadBestModel, useClassifyStudent
-import json
+import joblib
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from lightgbm import LGBMClassifier
+from sklearn.neural_network import MLPClassifier
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+import warnings
 
-def useLoadQuestions():
-    with open("questions.json", "r") as f:
-        return json.load(f)
+warnings.filterwarnings("ignore")
 
-# Load the cleaned dataset
-@st.cache_data
+@st.cache_resource
 def load_data():
-    return useLoadData()
+    return pd.read_csv("./datasource/labeled_dataset.csv")
 
-df = load_data()
+def get_user_input(possible_values):
+    input_dict = {}
+    for feature, values in possible_values.items():
+        if feature == "age":
+            input_dict[feature] = st.number_input("Age", min_value=10, max_value=100, value=20)
+        else:
+            input_dict[feature] = st.selectbox(feature.replace("_", " ").title(), sorted(values), key=feature)
+    input_df = pd.DataFrame([input_dict])
+    return input_df
 
-# Sidebar filter
-st.sidebar.title("Filter Options")
-selected_school = st.sidebar.multiselect("Select School", options=sorted(df["school_name"].unique()), default=None)
-selected_program = st.sidebar.multiselect("Select Program", options=sorted(df["program"].unique()), default=None)
+def main():
+    st.title("Depression Cluster Predictor (PHQ & BDI)")
+    df = load_data()
 
-filtered_df = df.copy()
-if selected_school:
-    filtered_df = filtered_df[filtered_df["school_name"].isin(selected_school)]
-if selected_program:
-    filtered_df = filtered_df[filtered_df["program"].isin(selected_program)]
-
-# Main content
-st.title("Depression Clustering Analysis")
-st.write("This dashboard shows insights from BDI (Beck Depression Inventory) clustering.")
-
-# Cluster Summary
-if "Cluster" in filtered_df.columns:
-    st.subheader("BDI Cluster Distribution")
-    # Define cluster labels
-    cluster_labels = {
-        0: "Severe depression",
-        1: "Mild/Moderate depression",
-        2: "Minimal/No depression"
-    }
-
-    # Add labels to cluster counts
-    cluster_counts = filtered_df["Cluster"].value_counts().sort_index()
-    cluster_counts.index = [f"{i} ({cluster_labels.get(i, 'Unknown')})" for i in cluster_counts.index]
-    st.bar_chart(cluster_counts)
-
-    # Show average BDI per cluster with labels
-    avg_bdi = filtered_df.groupby("Cluster")["bdi_results"].mean()
-    avg_bdi_labeled = avg_bdi.reset_index()
-    avg_bdi_labeled["Label"] = avg_bdi_labeled["Cluster"].map(cluster_labels)
-    avg_bdi_labeled["Cluster"] = avg_bdi_labeled.apply(
-        lambda row: f"{row['Cluster']} ({row['Label']})", axis=1
+    # Feature selection
+    all_features = [
+        "sex", "age", "school_name", "program", "department", "year_level",
+        "ses", "family_arrangement", "living_condition_level"
+    ]
+    default_features = [
+        "sex", "age", "school_name", "ses", "family_arrangement", "living_condition_level"
+    ]
+    selected_features = st.multiselect(
+        "Select features to include in training and prediction:",
+        options=all_features,
+        default=default_features
     )
-    avg_bdi_labeled = avg_bdi_labeled.drop(columns=["Label"])
-    st.write("**Average BDI per Cluster**")
-    st.dataframe(avg_bdi_labeled.rename(columns={"bdi_results": "Average BDI Score"}))
+    if not selected_features:
+        st.warning("Please select at least one feature.")
+        return
 
-    # BDI Score Histogram
-    st.subheader("BDI Score Distribution")
-    fig, ax = plt.subplots()
-    sns.histplot(filtered_df["bdi_results"], bins=30, kde=True, ax=ax)
-    ax.set_xlabel("BDI Score")
-    ax.set_ylabel("Number of Students")
-    st.pyplot(fig)
-else:
-    st.warning("No cluster information found in the dataset.")
+    def train_models_selected(df, selected_features):
+        X = df[selected_features]
+        y_phq = df["phq_cluster"]
+        y_bdi = df["bdi_cluster"]
 
-st.subheader("Model Comparison")
+        X_encoded = pd.get_dummies(X)
+        X_train, _, y_phq_train, _, y_bdi_train, _ = train_test_split(
+            X_encoded, y_phq, y_bdi, test_size=0.2, random_state=42
+        )
 
-# Define features and target
-question_cols = [col for col in filtered_df.columns if col.startswith("Q") and col[1:].isdigit()]
-if "Cluster" in filtered_df.columns and all(col in filtered_df.columns for col in question_cols):
-    X = filtered_df[question_cols]
-    y = filtered_df["Cluster"]
-    results_df, best_model_name = useTrainAndSaveBestModel(X, y, question_cols)
-    st.dataframe(results_df)
-    st.info(f"Best model '{best_model_name}' saved for student classification.")
-else:
-    st.warning("Cannot run model comparison: missing Cluster column or BDI question data.")
+        models = {
+            "Random Forest": RandomForestClassifier(),
+            "Gradient Boosting": GradientBoostingClassifier(),
+            "LightGBM": LGBMClassifier(verbose=-1, min_child_samples=1, min_split_gain=0.0),
+            "ANN (MLP)": MLPClassifier(max_iter=1000, early_stopping=True, random_state=42),
+            "Discriminant Analysis": LinearDiscriminantAnalysis(),
+            "Logistic Regression": LogisticRegression(max_iter=300)
+        }
 
-# --- Student Classification Section ---
-st.subheader("Classify a New Student")
-try:
-    model = useLoadBestModel()
-    questions = useLoadQuestions()
-    with st.form("student_form"):
-        bdi_responses = {}
-        for col in question_cols:
-            options = list(questions[col].keys())
-            option_labels = [f"{val}: {questions[col][val]}" for val in options]
-            selected = st.selectbox(f"{col}", options=options, format_func=lambda x: questions[col][x])
-            bdi_responses[col] = int(selected)
-        submitted = st.form_submit_button("Classify")
-        if submitted:
-            cluster = useClassifyStudent(bdi_responses, model, question_cols)
-            # Add cluster label mapping
-            cluster_labels = {
-                0: "Severe depression",
-                1: "Mild/Moderate depression",
-                2: "Minimal/No depression"
-            }
-            label = cluster_labels.get(cluster, "Unknown")
-            st.success(f"The student is classified into Cluster {cluster} ({label})")
-except Exception as e:
-    st.info("Train and save a model first to enable student classification.")
+        trained_models = {}
+        for name, model in models.items():
+            model_phq = model
+            model_bdi = model.__class__(**model.get_params())
+            model_phq.fit(X_train, y_phq_train)
+            model_bdi.fit(X_train, y_bdi_train)
+            trained_models[name] = {"phq": model_phq, "bdi": model_bdi}
+
+        return trained_models, X_encoded.columns
+
+    trained_models, model_features = train_models_selected(df, selected_features)
+
+    algo_choice = st.selectbox("Choose Model", list(trained_models.keys()))
+    st.markdown("### Input Information")
+    user_input = get_user_input({col: df[col].unique() for col in selected_features})
+
+    # Preprocess
+    user_input_encoded = pd.get_dummies(user_input)
+    full_input = pd.DataFrame(columns=model_features)
+    full_input.loc[0] = 0
+    for col in user_input_encoded.columns:
+        if col in full_input.columns:
+            full_input.at[0, col] = user_input_encoded.at[0, col]
+
+    if st.button("Predict"):
+        model_set = trained_models[algo_choice]
+        pred_phq = model_set["phq"].predict(full_input)[0]
+        pred_bdi = model_set["bdi"].predict(full_input)[0]
+
+        phq_map = [
+            "Minimal or No Depression",
+            "Mild Depression",
+            "Moderate Depression",
+            "Moderately Severe Depression",
+            "Severe Depression"
+        ]
+        bdi_map = ["Minimal Depression", "Mild Depression", "Moderate Depression", "Severe Depression"]
+
+        st.success(f"**PHQ Cluster**: {pred_phq} - {phq_map[pred_phq]}")
+        st.success(f"**BDI Cluster**: {pred_bdi} - {bdi_map[pred_bdi]}")
+
+if __name__ == "__main__":
+    main()
